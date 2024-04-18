@@ -22,7 +22,7 @@ export default function page() {
   return (
     <div className="">
       <div className="flex flex-col-reverse md:flex-row items-center justify-center bg-gray-900 text-whit text-slate-950 bg-[ul('/Ab2.png')] bg-no-repeat bg-center py-2" style={{ minHeight: "calc(100vh - 4rem)" }}>
-        <div className="flex flex-col gap-4 max-w-[95%] md:w-[55%] mx-auto items-center">
+        <div className="flex flex-col gap-4 max-w-[95%] md:w-[55%] lg:w-[45%] mx-auto items-center md:items-start">
           <h3 className="text-justify drop-shadow-[0_0_5px_orange] text-2xl md:text-3xl font-semibold">
           👋🏻 Hi there, I&apos;m
           </h3>
@@ -70,10 +70,8 @@ export default function page() {
             </Link>
           </div>
         </div>
-        <AnimatedPhoto width={64} />
+        <AnimatedPhoto />
       </div>
-
-      {/* <Writer /> */}
 
       <section className="gap-6 bg-gray-950  text-white py-4 flex items-center justify-center flex-col ">
         <h1 className="mx-auto text-center py-4 px-8 my-2 text-4xl rounded-md border-2 border-white font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 w-fit">

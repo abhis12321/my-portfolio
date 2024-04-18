@@ -3,9 +3,9 @@ import Image from 'next/image';
 // import me2 from '../../public/Ab3.jpg';
 import React from "react";
 
-export default function AnimationReact({width}) {
+export default function AnimationReact() {
   return (
-      <div className=" md:w-[40%]">
+      <div className=" md:w-[35%] mb-4 md:my-auto">
         <div className="group cursor-pointer w-fit">
           <div className=" w-20 h-20 md:w-64 md:h-64 rounded-full bg-transparent cursor-pointer [perspective:1000px] relative [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] duration-[1200ms]">
               <Image
