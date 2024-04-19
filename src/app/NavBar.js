@@ -22,16 +22,16 @@ export default function NavBar() {
         <div className="text-3xl py-2 hover:bg-slate-950 hover:text-red-800 text-center cursor-pointer" onClick={handleRight}>
           <FontAwesomeIcon icon={faXmark} size='sm' className="hidden cutX" />
         </div>
-        <div className="lg:bg-gradient-to-b lg:from-slate-950 lg:to-slate-800 hover:bg-slate-950 text-center"><Link href="/" className="py-3 px-12 lg:px-8 rounded-lg font-semibold hover:bg-gray-950" >
+        <div className="lg:bg-gradient-to-b lg:from-slate-950 lg:to-slate-800 hover:bg-slate-950 text-center hover:scale-110"><Link href="/" className="py-3 px-12 lg:px-8 rounded-lg font-semibold hover:bg-gray-950" >
           Home
         </Link></div>
-        <div className="lg:bg-gradient-to-b lg:from-slate-950 lg:to-slate-800 hover:bg-slate-950 text-center"><Link href="/projects" className="py-3 px-12 lg:px-8 rounded-lg font-semibold hover:bg-gray-950" >
+        <div className="lg:bg-gradient-to-b lg:from-slate-950 lg:to-slate-800 hover:bg-slate-950 text-center hover:scale-110"><Link href="/projects" className="py-3 px-12 lg:px-8 rounded-lg font-semibold hover:bg-gray-950" >
           Projects
         </Link></div>
-        <div className="lg:bg-gradient-to-b lg:from-slate-950 lg:to-slate-800 hover:bg-slate-950 text-center"><Link href="/about" className="py-3 px-12 lg:px-8 rounded-lg font-semibold hover:bg-gray-950" >
+        <div className="lg:bg-gradient-to-b lg:from-slate-950 lg:to-slate-800 hover:bg-slate-950 text-center hover:scale-110"><Link href="/about" className="py-3 px-12 lg:px-8 rounded-lg font-semibold hover:bg-gray-950" >
           About
         </Link></div>
-        <div className="lg:bg-gradient-to-b lg:from-slate-950 lg:to-slate-800 hover:bg-slate-950 text-center"><Link href="/contact" className="py-3 px-12 lg:px-8 rounded-lg font-semibold hover:bg-gray-950" >
+        <div className="lg:bg-gradient-to-b lg:from-slate-950 lg:to-slate-800 hover:bg-slate-950 text-center hover:scale-110"><Link href="/contact" className="py-3 px-12 lg:px-8 rounded-lg font-semibold hover:bg-gray-950" >
           Contact
         </Link></div>
         
