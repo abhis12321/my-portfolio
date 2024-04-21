@@ -5,7 +5,7 @@ import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-
 
 export default function Footer() {
   return (
-    <div className="flex flex-col min-h-[200px] [background-color:black] border-t-2 border-gray-900 opacity-85">
+    <div className="flex flex-col [background-color:black] border-t-2 border-gray-900 opacity-85">
       <div className='px-3 xm:px-8 flex flex-col md:flex-row items-center justify-around flex-1'>
         <div className="md:w-[40%] w-full flex flex-col items-center">
           <div className="">

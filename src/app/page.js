@@ -14,14 +14,12 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import AnimatedPhoto from "./animated_avatar";
-import Writer from './animated_typewritter'
-// import Image from "next/image";
-// import avatarphoto from '../../public/Ab5.jpg'
+import Writer from './animated_typewritter';
 
 export default function page() {
   return (
     <div className="">
-      <div className="flex flex-col-reverse md:flex-row items-center justify-center bg-gray-900 text-whit text-slate-950 bg-[ul('/Ab2.png')] bg-no-repeat bg-center py-2" style={{ minHeight: "calc(100vh - 4rem)" }}>
+      <div className="flex flex-col-reverse md:flex-row items-center justify-center bg-slate-900 text-whit text-slate-950 bg-[ul('/Ab2.png')] bg-no-repeat bg-center py-2" style={{ minHeight: "calc(100vh - 4rem)" }}>
         <div className="flex flex-col gap-4 max-w-[95%] md:w-[55%] lg:w-[45%] mx-auto items-center md:items-start">
           <h3 className="text-justify drop-shadow-[0_0_5px_orange] text-2xl md:text-3xl font-bold">
           👋🏻 Hi there, I&apos;m
@@ -43,7 +41,7 @@ export default function page() {
               <FontAwesomeIcon
                 icon={faGithub}
                 size="3x"
-                className=" text-gray-400 hover:text-gray-300 hover:scale-110"
+                className=" text-gray-400 opacity-85 hover:opacity-100 hover:scale-110"
               />
             </Link>
             <Link
