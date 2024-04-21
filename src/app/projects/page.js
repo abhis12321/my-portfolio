@@ -13,7 +13,7 @@ export default function page() {
         <div className="font-mono text-[14px] my-3 text-gray-400">A React based News Application for current/Daily news (data from news api)I created a news website for current(daily) news using the data of a NEWS API and I created some sections of interests</div>
         <div className="flex fle-col xm:flex-row gap-2 items-center justify-around">
           <Link className='px-3 text-[14px] sm:text-[1rem] sm:px-4 py-2 rounded bg-slate-950 hover:bg-blue-950 font-bold' target='_blank' href={`https://github.com/abhis12321/student-login-app-nextjs`}>Github Repository...</Link>
-          <Link className='px-3 text-[14px] sm:text-[1rem] sm:px-4 py-2 rounded bg-slate-950 hover:bg-blue-950 font-bold' target='_blank' href={`/`}>Take a Look...</Link>
+          <Link className='px-3 text-[14px] sm:text-[1rem] sm:px-4 py-2 rounded bg-slate-950 hover:bg-blue-950 font-bold' target='_blank' href={`https://student-login-app-nextjs.onrender.com/`}>Take a Look...</Link>
         </div>  
       </div>
       

@@ -34,7 +34,7 @@ export default function page() {
           </h3>
           <Writer />
 
-          <div className="py-4 flex justify-evenly items-center w-[330px] bg-slate-950 rounded-lg self-center sm:self-auto">
+          <div className="py-4 flex justify-evenly items-center w-[330px] md:w-[351px] bg-slate-950 rounded-lg self-center sm:self-auto">
             <Link
               target="_blank"
               href={`https://github.com/abhis12321`}
@@ -73,20 +73,20 @@ export default function page() {
         <AnimatedPhoto />
       </div>
 
-      <section className="gap-6 bg-gray-950  text-white py-4 flex items-center justify-center flex-col ">
-        <h1 className="mx-auto text-center py-4 px-8 my-2 text-4xl rounded-md border-2 border-white font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 w-fit">
-          My Learnings
+      <section className="gap-6 bg-gray-950  text-white py-4 flex items-center justify-center flex-col " id="learnings">
+        <h1 className="mx-auto text-center py-4 xs:px-8 my-2 text-4xl rounded-md border-2 border-white font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 w-[95%] xs:w-fit">
+          Coding Journey
         </h1>
 
-        <div className="min-h-[40vh] flex w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 xm:px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
-          <div className="flex flex-col justify-center items-center py-4 w-[35%] xm:w-[30%] ">
+        <div className="min-h-[40vh] flex gap-3 w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
+          <div className="flex flex-col justify-center items-center py-4  xs:w-[30%] ">
             <FontAwesomeIcon
               icon={faC}
               size="8x"
               className="bg-blue-950 px-4 py-2 md:px-5 md:py-3 rounded-lg h-[5rem] md:h-[6rem]"
             />
           </div>
-          <div className="flex flex-col justify-center items-center py-4 w-[65%] xm:w-[70%]">
+          <div className="flex flex-col justify-center items-center py-4 xs:w-[70%]">
             <h2 className="bg-gray-950 font-bold px-4 py-2 rounded">
               Dec 2021
             </h2>
@@ -99,8 +99,8 @@ export default function page() {
         </div>
 
 
-        <div className="min-h-[40vh] flex w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 xm:px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
-          <div className="flex flex-col justify-center items-center py-4 w-[35%] xm:w-[30%] ">
+        <div className="min-h-[40vh] flex gap-3 w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
+          <div className="flex flex-col justify-center items-center py-4 xs:w-[30%] ">
             <FontAwesomeIcon
               icon={faJava}
               size="8x"
@@ -108,7 +108,7 @@ export default function page() {
             />
             <h3 className="font-bold ">Java</h3>
           </div>
-          <div className="flex flex-col justify-center items-center py-4 w-[65%] xm:w-[70%]">
+          <div className="flex flex-col justify-center items-center py-4 xs:w-[70%]">
             <h2 className="bg-gray-950 font-bold px-4 py-2 rounded">
               August 2022
             </h2>
@@ -120,8 +120,8 @@ export default function page() {
           </div>
         </div>
 
-        <div className="min-h-[40vh] flex w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 xm:px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
-          <div className="flex flex-col justify-center items-center py-4 w-[35%] xm:w-[30%] ">
+        <div className="min-h-[40vh] flex gap-3 w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
+          <div className="flex flex-col justify-center items-center py-4 xs:w-[30%] ">
             <FontAwesomeIcon
               icon={faHtml5}
               size="8x"
@@ -129,7 +129,7 @@ export default function page() {
             />
             <h3 className="font-bold ">HTML</h3>
           </div>
-          <div className="flex flex-col justify-center items-center py-4 w-[65%] xm:w-[70%]">
+          <div className="flex flex-col justify-center items-center py-4 xs:w-[70%]">
             <h2 className="bg-gray-950 font-bold px-4 py-2 rounded">
               December 2022
             </h2>
@@ -140,8 +140,8 @@ export default function page() {
           </div>
         </div>
 
-        <div className="min-h-[40vh] flex w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 xm:px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
-          <div className="flex flex-col justify-center items-center py-4  w-[35%] xm:w-[30%] ">
+        <div className="min-h-[40vh] flex gap-3 w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
+          <div className="flex flex-col justify-center items-center py-4] xs:w-[30%] ">
             <FontAwesomeIcon
               icon={faCss3Alt}
               size="8x"
@@ -149,7 +149,7 @@ export default function page() {
             />
             <h3 className="font-bold ">CSS</h3>
           </div>
-          <div className="flex flex-col justify-center items-center py-4  w-[65%] xm:w-[70%]">
+          <div className="flex flex-col justify-center items-center py-4 xs:w-[70%]">
             <h2 className="bg-gray-950 font-bold px-4 py-2 rounded">
               December 2022
             </h2>
@@ -161,8 +161,8 @@ export default function page() {
           </div>
         </div>
 
-        <div className="min-h-[40vh] flex w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 xm:px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
-          <div className="flex flex-col justify-center items-center py-4  w-[35%] xm:w-[30%] ">
+        <div className="min-h-[40vh] flex gap-3 w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
+          <div className="flex flex-col justify-center items-center py-4] xs:w-[30%] ">
             <FontAwesomeIcon
               icon={faSquareJs}
               size="8x"
@@ -170,7 +170,7 @@ export default function page() {
             />
             <h3 className="font-bold ">JavaScript</h3>
           </div>
-          <div className="flex flex-col justify-center items-center py-4  w-[65%] xm:w-[70%]">
+          <div className="flex flex-col justify-center items-center py-4 xs:w-[70%]">
             <h2 className="bg-gray-950 font-bold px-4 py-2 rounded">
               February 2023
             </h2>
@@ -182,8 +182,8 @@ export default function page() {
           </div>
         </div>
 
-        <div className="min-h-[40vh] flex w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 xm:px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
-          <div className="flex flex-col justify-center items-center py-4  w-[35%] xm:w-[30%] ">
+        <div className="min-h-[40vh] flex gap-3 w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
+          <div className="flex flex-col justify-center items-center py-4] xs:w-[30%] ">
             <FontAwesomeIcon
               icon={faBootstrap}
               size="8x"
@@ -191,7 +191,7 @@ export default function page() {
             />
             <h3 className="font-bold ">Bootstrap</h3>
           </div>
-          <div className="flex flex-col justify-center items-center py-4  w-[65%] xm:w-[70%]">
+          <div className="flex flex-col justify-center items-center py-4 xs:w-[70%]">
             <h2 className="bg-gray-950 font-bold px-4 py-2 rounded">
               February 2023
             </h2>
@@ -204,8 +204,8 @@ export default function page() {
           </div>
         </div>
 
-        <div className="min-h-[40vh] flex w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 xm:px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
-          <div className="flex flex-col justify-center items-center py-4  w-[35%] xm:w-[30%] ">
+        <div className="min-h-[40vh] flex gap-3 w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
+          <div className="flex flex-col justify-center items-center py-4] xs:w-[30%] ">
             <FontAwesomeIcon
               icon={faReact}
               size="7x"
@@ -213,7 +213,7 @@ export default function page() {
             />
             <h3 className="font-bold ">ReactJS</h3>
           </div>
-          <div className="flex flex-col justify-center items-center py-4  w-[65%] xm:w-[70%]">
+          <div className="flex flex-col justify-center items-center py-4 xs:w-[70%]">
             <h2 className="bg-gray-950 font-bold px-4 py-2 rounded">
               May 2023
             </h2>
@@ -225,8 +225,8 @@ export default function page() {
           </div>
         </div>
 
-        <div className="min-h-[40vh] flex w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg px-1 xm:px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
-          <div className="flex flex-col justify-center items-center py-4  w-[35%] xm:w-[30%] ">
+        <div className="min-h-[40vh] flex gap-3 w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
+          <div className="flex flex-col justify-center items-center py-4 xs:w-[30%] ">
             <FontAwesomeIcon
               icon={faN}
               size="5x"
@@ -234,7 +234,7 @@ export default function page() {
             />
             <h3 className="font-bold ">NextJS</h3>
           </div>
-          <div className="flex flex-col justify-center items-center py-4 w-[65%] xm:w-[70%]">
+          <div className="flex flex-col justify-center items-center py-4 xs:w-[70%]">
             <h2 className="bg-gray-950 font-bold px-4 py-2 rounded">
               September 2023
             </h2>

@@ -13,9 +13,9 @@ export default function AnimationReact() {
                 height={200}
                 src={'/Ab5.jpg'}
                 alt="@me"
-                className="absolute w-full h-full rounded-full object-fit object-center shadow-[0_0_10px_red] opacity-60"
+                className="absolute w-full h-full rounded-full object-fit object-center shadow-[0_0_10px_red] opacity-60 md:[transform:rotateY(180deg)] "
               />
-            <div className="absolute bg-slate-950 w-full h-full rounded-full [backface-visibility:hidden] md:[transform:rotateY(180deg)] shadow-xl flex flex-col items-center justify-center gap-4">
+            <div className="absolute bg-slate-950 w-full h-full rounded-full [backface-visibility:hidden] shadow-xl flex flex-col items-center justify-center gap-4">
               <Image
                 width={200}
                 height={200}
