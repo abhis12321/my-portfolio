@@ -23,13 +23,13 @@ export default function page() {
     <div className="">
       <div className="flex flex-col-reverse md:flex-row items-center justify-center bg-gray-900 text-whit text-slate-950 bg-[ul('/Ab2.png')] bg-no-repeat bg-center py-2" style={{ minHeight: "calc(100vh - 4rem)" }}>
         <div className="flex flex-col gap-4 max-w-[95%] md:w-[55%] lg:w-[45%] mx-auto items-center md:items-start">
-          <h3 className="text-justify drop-shadow-[0_0_5px_orange] text-2xl md:text-3xl font-semibold">
+          <h3 className="text-justify drop-shadow-[0_0_5px_orange] text-2xl md:text-3xl font-bold">
           👋🏻 Hi there, I&apos;m
           </h3>
           <h1 className="text-justify drop-shadow-[0_0_7px_red] text-4xl md:text-5xl font-bold">
             Abhishek Singh
           </h1>
-          <h3 className="text-justify drop-shadow-[0_0_5px_orange] text-2xl md:text-3xl font-semibold">
+          <h3 className="text-justify drop-shadow-[0_0_5px_orange] text-2xl md:text-3xl font-bold">
             & I am a Passionate
           </h3>
           <Writer />
@@ -88,12 +88,12 @@ export default function page() {
           </div>
           <div className="flex flex-col justify-center items-center py-4 xs:w-[70%]">
             <h2 className="bg-gray-950 font-bold px-4 py-2 rounded">
-              Dec 2021
+              February 2022
             </h2>
-            <p className="font-mono text-[14px] text-gray-400 py-3">
+            <p className="font-mono text-[14px] text-gray-300 py-3">
               My first and the starting programming language is C as It was also
-              in the course of my BTECH 1st year and 2nd year hence I learned
-              the BASICS of C language and Data Structure in C language
+              in the course of my BTECH 1st year and 2nd year hence I gone through
+              the BASICS of C language and Data Structure in C language along with some sorting-algorithms.
             </p>
           </div>
         </div>
@@ -193,13 +193,32 @@ export default function page() {
           </div>
           <div className="flex flex-col justify-center items-center py-4 xs:w-[70%]">
             <h2 className="bg-gray-950 font-bold px-4 py-2 rounded">
-              February 2023
+              April 2023
             </h2>
             <p className="font-mono text-[14px] text-gray-400 py-3">
               Bootstrap is an toolkit which makes the web development very fast
               and dynamic, It is an predefined CSS and JavaScript containing
               tool, I spend some time to learn How to use Bootstrap in my
               projects
+            </p>
+          </div>
+        </div>
+
+        <div className="min-h-[40vh] flex gap-3 w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
+          <div className="flex flex-col justify-center items-center py-4] xs:w-[30%] ">
+            <FontAwesomeIcon
+              icon={faGithub}
+              size="8x"
+              className="text-gray-400 h-[5.7rem] md:h-[6.7rem]"
+            />
+            <h3 className="font-bold ">Git & Github</h3>
+          </div>
+          <div className="flex flex-col justify-center items-center py-4 xs:w-[70%]">
+            <h2 className="bg-gray-950 font-bold px-4 py-2 rounded">
+              May 2023
+            </h2>
+            <p className="font-mono text-[14px] text-gray-400 py-3">
+              I gone through the basics of Git & Github, As Git & Github is a version control system that is a necessity in today&apos;s programming world for mantaining record of the code versions and also tracking the development of any program or project. Git & Github makes the code management easy and trackable.
             </p>
           </div>
         </div>
@@ -215,12 +234,12 @@ export default function page() {
           </div>
           <div className="flex flex-col justify-center items-center py-4 xs:w-[70%]">
             <h2 className="bg-gray-950 font-bold px-4 py-2 rounded">
-              May 2023
+              June 2023
             </h2>
             <p className="font-mono text-[14px] text-gray-400 py-3">
-              React is an JavaScript library for front-end only and I spend a
+              I gone through the basics and the advance concepts of ReactJs. React is an JavaScript library for front-end only and I spend a
               lot of time in learning ReactJS and its properties like : hooks,
-              routing , etc
+              routing , rendering, etc
             </p>
           </div>
         </div>

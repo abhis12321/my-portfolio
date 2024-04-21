@@ -13,7 +13,7 @@ export default function AnimationReact() {
                 height={200}
                 src={'/Ab5.jpg'}
                 alt="@me"
-                className="absolute w-full h-full rounded-full object-fit object-center shadow-[0_0_10px_red] opacity-60 md:[transform:rotateY(180deg)] "
+                className="absolute w-full h-full rounded-full object-fit object-center shadow-[0_0_10px_red] opacity-70 md:[transform:rotateY(180deg)] "
               />
             <div className="absolute bg-slate-950 w-full h-full rounded-full [backface-visibility:hidden] shadow-xl flex flex-col items-center justify-center gap-4">
               <Image
@@ -21,7 +21,7 @@ export default function AnimationReact() {
                 height={200}
                 src={"/Ab3.jpg"}
                 alt="@me"
-                className="absolute w-full h-full rounded-full object-fit object-center opacity-50"
+                className="absolute w-full h-full rounded-full object-fit object-center opacity-60"
               />
                 {/* <h1 className="text-lg font-bold text-purple-200 font-mono">Full Stack Web Developer</h1>
                 <h1 className="text-2xl text-white font-medium">Jack Hanma</h1> */}

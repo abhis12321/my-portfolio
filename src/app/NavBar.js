@@ -14,7 +14,7 @@ export default function NavBar() {
 
   return (
     <div className="bg-gradient-to-b from-slate-950 to-slate-800  text-white flex items-center justify-between h-16 leading-[4rem] px-3 xm:px-8">
-      <div className="">
+      <div className="md:ml-4">
         <h2 className="font-bold text-3xl text-center rounded-md text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 w-fit leading-[4rem]"><span>@</span>bhishek singh</h2>
       </div>
 
@@ -36,7 +36,7 @@ export default function NavBar() {
         </Link></div>
         
       </div>
-      <div className="lg:hidden text-3xl py-2">
+      <div className="lg:hidden text-3xl py-2 md:mr-4">
         <FontAwesomeIcon icon={faBars} size='sm' className="hamberger cursor-pointer" onClick={handleRight} />
       </div>
     </div>
