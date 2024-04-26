@@ -19,20 +19,20 @@ import Writer from './animated_typewritter';
 export default function page() {
   return (
     <div className="">
-      <div className="flex flex-col-reverse md:flex-row items-center justify-center bg-slate-900 text-whit text-slate-950 bg-[ul('/Ab2.png')] bg-no-repeat bg-center py-2" style={{ minHeight: "calc(100vh - 4rem)" }}>
+      <div className="flex flex-col-reverse md:flex-row items-center justify-center bg-gradient-to-bl from-gray-900 via-cyan-950 via-2% to-slate-950 text-white bg-[ul('/Ab2.png')] bg-no-repeat bg-center py-2 border-b-2 border-gray-800" style={{ minHeight: "calc(100vh - 4rem)" }}>
         <div className="flex flex-col gap-4 max-w-[95%] md:w-[55%] lg:w-[45%] mx-auto items-center md:items-start">
-          <h3 className="text-justify drop-shadow-[0_0_5px_orange] text-2xl md:text-3xl font-bold">
+          <h3 className="text-justify drop-shadow-[0_0_10px_red] text-xl md:text-3xl font-semibold">
           👋🏻 Hi there, I&apos;m
           </h3>
-          <h1 className="text-justify drop-shadow-[0_0_7px_red] text-4xl md:text-5xl font-bold">
+          <h1 className="text-justify drop-shadow-[0_0_8px_red] text-3xl md:text-5xl font-semibold">
             Abhishek Singh
           </h1>
-          <h3 className="text-justify drop-shadow-[0_0_5px_orange] text-2xl md:text-3xl font-bold">
+          <h3 className="text-justify drop-shadow-[0_0_10px_red] text-xl md:text-3xl font-semibold">
             & I am a Passionate
           </h3>
           <Writer />
 
-          <div className="py-4 flex justify-evenly items-center w-[330px] md:w-[351px] bg-slate-950 rounded-lg self-center sm:self-auto">
+          <div className="py-4 flex justify-evenly items-center w-[330px] md:w-[351px] bg-slate-900 shadow-[0_0_5px_gray] rounded-lg self-center sm:self-auto">
             <Link
               target="_blank"
               href={`https://github.com/abhis12321`}
@@ -41,7 +41,7 @@ export default function page() {
               <FontAwesomeIcon
                 icon={faGithub}
                 size="3x"
-                className=" text-gray-400 opacity-85 hover:opacity-100 hover:scale-110"
+                className="text-gray-400 hover:text-gray-300 hover:scale-110"
               />
             </Link>
             <Link
@@ -71,7 +71,7 @@ export default function page() {
         <AnimatedPhoto />
       </div>
 
-      <section className="gap-6 bg-gray-950  text-white py-4 flex items-center justify-center flex-col " id="learnings">
+      <section className="gap-6 bg-gray-950  text-white py-5 flex items-center justify-center flex-col " id="learnings">
         <h1 className="mx-auto text-center py-4 xs:px-8 my-2 text-4xl rounded-md border-2 border-white font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 w-[95%] xs:w-fit">
           Coding Journey
         </h1>

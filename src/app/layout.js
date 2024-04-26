@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className='bg-slate-950 text-white'>
       <body>
           <NavBar />
-          <div className='min-h-[90.9vh]'>
+          <div className='' style={{minHeight:'calc(100vh - 4rem'}}>
             {children}
           </div>
           <Footer />
