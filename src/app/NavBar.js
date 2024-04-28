@@ -15,7 +15,8 @@ export default function NavBar() {
   return (
     <div className="w-full bg-gradient-to-b from-slate-950 to-slate-800  text-white flex items-center justify-between h-16 leading-[4rem] px-4 xm:px-8 overflow-hidden">
       <div className="">
-        <Link href={'/'} className="font-bold text-3xl text-center rounded-md text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 w-fit leading-[4rem] font-mono"><span>E</span>commerse</Link>
+
+        <h2 className="font-bold text-3xl text-center rounded-md text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 w-fit leading-[4rem]"><span>@</span>bhishek singh</h2>
       </div>
 
       {/* <div className="hidden lg:block search-bar w-[35%] relative leading-10">
