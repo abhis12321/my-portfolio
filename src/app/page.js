@@ -19,15 +19,15 @@ import Writer from './animated_typewritter';
 export default function page() {
   return (
     <div className="">
-      <div className="flex flex-col-reverse md:flex-row items-center justify-center bg-gradient-to-bl from-gray-900 via-cyan-950 via-2% to-slate-950 text-white bg-[ul('/Ab2.png')] bg-no-repeat bg-center py-2 border-b-2 border-gray-800" style={{ minHeight: "calc(100vh - 4rem)" }}>
-        <div className="flex flex-col gap-4 max-w-[95%] md:w-[55%] lg:w-[45%] mx-auto items-center md:items-start">
-          <h3 className="text-justify drop-shadow-[0_0_10px_red] text-xl md:text-3xl font-semibold">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-center bg-gradient-to-l from-gray-950 to-cyan-950 to-slat-950 text-white bg-[ul('/Ab2.png')] bg-no-repeat bg-center py-2 border-b-2 border-gray-800" style={{ minHeight: "calc(100vh - 4rem)" }}>
+        <div className="flex flex-col gap-4 max-w-[95%] md:w-[57%] lg:w-[45%] mx-auto items-center md:items-start">
+          <h3 className="text-justify drop-shadow-[0_0_10px_red] text-xl md:text-2xl md:font-semibold">
           👋🏻 Hi there, I&apos;m
           </h3>
-          <h1 className="text-justify drop-shadow-[0_0_8px_red] text-3xl md:text-5xl font-semibold">
+          <h1 className="text-justify drop-shadow-[0_0_8px_red] text-3xl md:text-4xl font-semibold">
             Abhishek Singh
           </h1>
-          <h3 className="text-justify drop-shadow-[0_0_10px_red] text-xl md:text-3xl font-semibold">
+          <h3 className="text-justify drop-shadow-[0_0_10px_red] text-xl md:text-2xl md:font-semibold">
             & I am a Passionate
           </h3>
           <Writer />

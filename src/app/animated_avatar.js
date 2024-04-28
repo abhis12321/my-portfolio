@@ -5,7 +5,7 @@ import React from "react";
 
 export default function AnimationReact() {
   return (
-      <div className=" md:w-[35%] mb-4 md:my-auto">
+      <div className="md:w-[36%] lg:w-[34%] mb-4 mb:my-auto">
         <div className="group cursor-pointer w-fit">
           <div className=" w-20 h-20 md:w-64 md:h-64 rounded-full bg-transparent cursor-pointer [perspective:1000px] relative [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] duration-[1200ms]">
               <Image
