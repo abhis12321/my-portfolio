@@ -6,7 +6,9 @@ import Image from 'next/image';
 export default function page() {
   return (
     <div className='flex flex-col bg-slate-950 pt-5'>
-      <h1 className='mx-auto text-center py-4 px-8 my-2 text-4xl rounded-md border-2 border-white font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 w-fit'>My Projects</h1>
+      <h1 className="mx-auto text-center py-4 sm:px-8 my-2 text-4xl rounded-md drop-shadow-[0_0_2px_white] font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-800 w-[95%] xs:w-fit">
+        My Projects
+      </h1>
 
       <div className="bg-gradient-to-r from-gray-950 via-sky-950  to-slate-900 shadow-[0_0_7px_white] hover:shadow-[0_0_15px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
         <h2 className="my-4 font-bold text-xl drop-shadow-[0_0_7px_violet]">Student&rsquo;s Social Media App</h2>

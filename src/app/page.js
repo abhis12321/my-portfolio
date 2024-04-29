@@ -19,12 +19,12 @@ import Writer from './animated_typewritter';
 export default function page() {
   return (
     <div className="">
-      <div className="flex flex-col-reverse md:flex-row items-center justify-center bg-gradient-to-l from-gray-950 to-cyan-950 to-slat-950 text-white bg-[ul('/Ab2.png')] bg-no-repeat bg-center py-2 border-b-2 border-gray-800" style={{ minHeight: "calc(100vh - 4rem)" }}>
-        <div className="flex flex-col gap-4 max-w-[95%] md:w-[57%] lg:w-[45%] mx-auto items-center md:items-start">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-center bg-gradient-to-r from-cyan-950/70 via-slate-900 to-gray-950 text-white bg-[ul('/Ab2.png')] bg-no-repeat bg-center py-2 border-b-2 border-gray-800" style={{ minHeight: "calc(100vh - 4rem)" }}>
+        <div className="flex flex-col gap-4 max-w-[95%] md:w-[66%] md:pl-[9vw] lg:pl-0 lg:w-[45%] mx-auto items-center md:items-start">
           <h3 className="text-justify drop-shadow-[0_0_10px_red] text-xl md:text-2xl md:font-semibold">
-          👋🏻 Hi there, I&apos;m
+            👋🏻 Hi there, I&apos;m
           </h3>
-          <h1 className="text-justify drop-shadow-[0_0_8px_red] text-3xl md:text-4xl font-semibold">
+          <h1 className="text-justify drop-shadow-[0_0_8px_red] text-2xl md:text-4xl font-semibold">
             Abhishek Singh
           </h1>
           <h3 className="text-justify drop-shadow-[0_0_10px_red] text-xl md:text-2xl md:font-semibold">
@@ -32,7 +32,7 @@ export default function page() {
           </h3>
           <Writer />
 
-          <div className="py-4 flex justify-evenly items-center w-[330px] md:w-[351px] bg-slate-900 shadow-[0_0_5px_gray] rounded-lg self-center sm:self-auto">
+          <div className="py-4 flex justify-evenly items-center w-[98vw] max-w-[351px] bg-slate-900 shadow-[0_0_5px_gray] rounded-lg self-center sm:self-auto">
             <Link
               target="_blank"
               href={`https://github.com/abhis12321`}
@@ -71,24 +71,37 @@ export default function page() {
         <AnimatedPhoto />
       </div>
 
+      <div className='flex flex-col items-center justify-evenly bg-gradient-to-b from-gray-950 via-slate-950 to-slate-900 py-8 border-b-2 border-slate-800' id="about">
+        <div className="rounded-2xl w-full xs:w-[95%] flex flex-col items-center justify-evenly max-w-[600px] ">
+          <h1 className='text-center py-4 px-8 mb-2 rounded-md drop-shadow-[0_0_2px_white] text-4xl sm:text-5xl font-extrabold sm:font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-900 w-fit'>About me</h1>
+          <div className="text-center px-6 sm:px-12 text-gray-400 font-mono">I am a passionate web developer and  
+          <span className="font-bold text-red-900/95"> currently pursuing my BTech(Computer Science and Engineering) from Dr. Ambedkar Institute of Technology for Handicapped Kanpur</span>, I&apos;m skilled in front-end
+            technologies like HTML5, CSS3, JavaScript, Bootstrap, Tailwind and React.js as well as back-end frameworks like Node.js ,
+            Express.js, Next.js. Also Skilled in responsive design principles and eager to contribute innovative solutions to web
+            development projects. Possess hands-on experience with personal projects, demonstrating strong problemsolving abilities. Seeking to leverage academic foundation and practical skills to contribute effectively as a
+            valuable member of a dynamic development team
+          </div>
+        </div>
+      </div>
+
       <section className="gap-6 bg-gray-950  text-white py-5 flex items-center justify-center flex-col " id="learnings">
-        <h1 className="mx-auto text-center py-4 xs:px-8 my-2 text-4xl rounded-md border-2 border-white font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 w-[95%] xs:w-fit">
+        <h1 className="mx-auto text-center py-4 sm:px-8 my-2 text-4xl rounded-md drop-shadow-[0_0_2px_white] font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-800 w-[95%] xs:w-fit">
           Coding Journey
         </h1>
 
         <div className="min-h-[40vh] flex gap-3 w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
-          <div className="flex flex-col justify-center items-center py-4  xs:w-[30%] ">
+          <div className="flex flex-col justify-center items-center py-4 xs:w-[30%] ">
             <FontAwesomeIcon
               icon={faC}
               size="8x"
-              className="bg-blue-950 px-4 py-2 md:px-5 md:py-3 rounded-lg h-[5rem] md:h-[6rem]"
+              className="xs:bg-blue-950 text-gray-300 xs:px-4 py-2 md:px-5 md:py-3 rounded-lg h-[6rem]"
             />
           </div>
           <div className="flex flex-col justify-center items-center py-4 xs:w-[70%]">
             <h2 className="bg-gray-950 font-bold px-4 py-2 rounded">
               February 2022
             </h2>
-            <p className="font-mono text-[14px] text-gray-300 py-3">
+            <p className="font-mono text-[14px] text-gray-400 py-3">
               My first and the starting programming language is C as It was also
               in the course of my BTECH 1st year and 2nd year hence I gone through
               the BASICS of C language and Data Structure in C language along with some sorting-algorithms.
@@ -102,7 +115,7 @@ export default function page() {
             <FontAwesomeIcon
               icon={faJava}
               size="8x"
-              className="bg-orange-800  px-4 py-2 rounded-lg h-[5rem] md:h-[6rem]"
+              className="xs:bg-orange-800 text-gray-300 xs:px-4 py-2 rounded-lg h-[6.2rem] md:h-[6rem]"
             />
             <h3 className="font-bold ">Java</h3>
           </div>
@@ -119,11 +132,11 @@ export default function page() {
         </div>
 
         <div className="min-h-[40vh] flex gap-3 w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
-          <div className="flex flex-col justify-center items-center py-4 xs:w-[30%] ">
+          <div className="flex flex-col justify-center items-center xs:w-[30%] ">
             <FontAwesomeIcon
               icon={faHtml5}
               size="8x"
-              className="text-orange-700  px-4 py-2 rounded-lg h-[5.9rem] md:h-[6.9rem]"
+              className="text-orange-700 py-2 rounded-lg h-[6.4rem] md:h-[6.9rem]"
             />
             <h3 className="font-bold ">HTML</h3>
           </div>
@@ -133,17 +146,17 @@ export default function page() {
             </h2>
             <p className="font-mono text-[14px] text-gray-400 py-3">
               It was the initial Starting for my web development journey as a
-              beginner I started with HTML(Hyper Text Markup Language)
+              beginner I started with HTML(Hyper Text Markup Language) with the help of some youtube tutorials and some documentations
             </p>
           </div>
         </div>
 
         <div className="min-h-[40vh] flex gap-3 w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
-          <div className="flex flex-col justify-center items-center py-4] xs:w-[30%] ">
+          <div className="flex flex-col justify-center items-center xs:w-[30%] ">
             <FontAwesomeIcon
               icon={faCss3Alt}
               size="8x"
-              className="text-blue-800 h-[5.9rem] md:h-[6.9rem]"
+              className="text-blue-800 h-[6.7rem] md:h-[6.9rem]"
             />
             <h3 className="font-bold ">CSS</h3>
           </div>
@@ -154,17 +167,17 @@ export default function page() {
             <p className="font-mono text-[14px] text-gray-400 py-3">
               It was the initial Starting for my web development journey as a
               beginner I started with HTML and here I also focused on
-              CSS(Cascading Style Sheet) as It gives a good look to the HTML
+              CSS(Cascading Style Sheet) as It gives a good look to the HTML. For any UI design, CSS plays the main role as it defines the apearance of the page
             </p>
           </div>
         </div>
 
         <div className="min-h-[40vh] flex gap-3 w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
-          <div className="flex flex-col justify-center items-center py-4] xs:w-[30%] ">
+          <div className="flex flex-col justify-center items-center xs:w-[30%] ">
             <FontAwesomeIcon
               icon={faSquareJs}
               size="8x"
-              className="text-yellow-700 h-[5.5rem] md:h-[6.7rem]"
+              className="text-yellow-700 h-[6.1rem] md:h-[6.7rem]"
             />
             <h3 className="font-bold ">JavaScript</h3>
           </div>
@@ -175,17 +188,17 @@ export default function page() {
             <p className="font-mono text-[14px] text-gray-400 py-3">
               After having a good knowledge of HTML and CSS, I moved to
               JavaScript as It is used in Front-end and Back-end of and web-app
-              and provides some Dynamic properties too
+              and provides some Dynamic properties too. It defines as the working of a web page and also used to handle event-listeners
             </p>
           </div>
         </div>
 
         <div className="min-h-[40vh] flex gap-3 w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
-          <div className="flex flex-col justify-center items-center py-4] xs:w-[30%] ">
+          <div className="flex flex-col justify-center items-center xs:w-[30%] ">
             <FontAwesomeIcon
               icon={faBootstrap}
               size="8x"
-              className="text-violet-700 h-[5.7rem] md:h-[6.7rem]"
+              className="text-violet-700 h-[5rem] md:h-[6.7rem]"
             />
             <h3 className="font-bold ">Bootstrap</h3>
           </div>
@@ -203,11 +216,11 @@ export default function page() {
         </div>
 
         <div className="min-h-[40vh] flex gap-3 w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
-          <div className="flex flex-col justify-center items-center py-4] xs:w-[30%] ">
+          <div className="flex flex-col justify-center items-center xs:w-[30%] ">
             <FontAwesomeIcon
               icon={faGithub}
               size="8x"
-              className="text-gray-400 h-[5.7rem] md:h-[6.7rem]"
+              className="text-gray-300 h-[5.7rem] md:h-[6.7rem]"
             />
             <h3 className="font-bold ">Git & Github</h3>
           </div>
@@ -222,7 +235,7 @@ export default function page() {
         </div>
 
         <div className="min-h-[40vh] flex gap-3 w-[95%] md:w-[80%] lg:max-w-[65%] rounded-lg p-1 px-4 shadow-[0_0_10px_white] hover:shadow-[0_0_15px_red] bg-gray-900 ">
-          <div className="flex flex-col justify-center items-center py-4] xs:w-[30%] ">
+          <div className="flex flex-col justify-center items-center xs:w-[30%] ">
             <FontAwesomeIcon
               icon={faReact}
               size="7x"
