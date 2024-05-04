@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from 'next/link';
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faCopyright } from '@fortawesome/free-regular-svg-icons';
 
 export default function Footer() {
   return (
@@ -62,7 +63,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="text-gray-500 text-center p-2 font-semibold"> <span className='font-bold'>©</span>Abhishek Singh! A personal portfolio!!</div>
+      <div className="text-gray-500 text-center p-2 font-semibold"><FontAwesomeIcon icon={faCopyright} className='text-lg'/> Abhishek Singh! A personal portfolio!!</div>
     </div>
   )
 }
