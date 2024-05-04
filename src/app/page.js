@@ -19,7 +19,7 @@ import Writer from './animated_typewritter';
 export default function page() {
   return (
     <div className="">
-      <div className="flex flex-col-reverse md:flex-row items-center justify-center bg-gradient-to-r from-cyan-950/70 via-slate-900 to-gray-950 text-white bg-[ul('/Ab2.png')] bg-no-repeat bg-center py-2 border-b-2 border-gray-800" style={{ minHeight: "calc(100vh - 4rem)" }}>
+      <div className="flex flex-col-reverse md:flex-row items-center justify-center bg-gradient-to-b dark:bg-gradient-to-r from-teal-950/80 via-sky-950/90 to-sky-950 dark:from-cyan-950/70 dark:via-slate-900/80 dark:to-gray-950 text-white bg-[ul('/Ab2.png')] bg-no-repeat bg-center py-2 border-b-2 border-gray-800" style={{ minHeight: "calc(100vh - 4rem)" }}>
         <div className="flex flex-col gap-4 max-w-[95%] md:w-[66%] md:pl-[9vw] lg:pl-0 lg:w-[45%] mx-auto items-center md:items-start">
           <h3 className="text-justify drop-shadow-[0_0_10px_red] text-xl md:text-2xl md:font-semibold">
             👋🏻 Hi there, I&apos;m
@@ -32,7 +32,7 @@ export default function page() {
           </h3>
           <Writer />
 
-          <div className="py-4 flex justify-evenly items-center w-[98vw] max-w-[351px] bg-slate-900 shadow-[0_0_5px_gray] rounded-lg self-center sm:self-auto">
+          <div className="py-4 flex justify-evenly items-center w-[98vw] max-w-[351px] bg-slate-950/50 dark:bg-slate-900 shadow-[0_0_5px_gray] rounded-lg self-center sm:self-auto">
             <Link
               target="_blank"
               href={`https://github.com/abhis12321`}
@@ -63,7 +63,7 @@ export default function page() {
               <FontAwesomeIcon
                 icon={faInstagram}
                 size="3x"
-                className="text-rose-800 hover:text-rose-700  hover:scale-110"
+                className="text-rose-900 hover:text-rose-800  hover:scale-110"
               />
             </Link>
           </div>
@@ -73,7 +73,7 @@ export default function page() {
 
       <div className='flex flex-col items-center justify-evenly bg-gradient-to-b from-gray-950 via-slate-950 to-slate-900 py-8 border-b-2 border-slate-800' id="about">
         <div className="rounded-2xl w-full xs:w-[95%] flex flex-col items-center justify-evenly max-w-[600px] ">
-          <h1 className='text-center py-4 px-8 mb-2 rounded-md drop-shadow-[0_0_2px_white] text-4xl sm:text-5xl font-extrabold sm:font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-900 w-fit'>About me</h1>
+          <h1 className='text-center py-4 px-8 mb-2 rounded-md drop-shadow-[0_0_1px_white] text-4xl sm:text-5xl font-extrabold sm:font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-900 w-fit'>About me</h1>
           <div className="text-center px-6 sm:px-12 text-gray-400 font-mono">I am a passionate web developer and  
           <span className="font-bold text-red-900/95"> currently pursuing my BTech(Computer Science and Engineering) from Dr. Ambedkar Institute of Technology for Handicapped Kanpur</span>, I&apos;m skilled in front-end
             technologies like HTML5, CSS3, JavaScript, Bootstrap, Tailwind and React.js as well as back-end frameworks like Node.js ,
@@ -85,7 +85,7 @@ export default function page() {
       </div>
 
       <section className="gap-6 bg-gray-950  text-white py-5 flex items-center justify-center flex-col " id="learnings">
-        <h1 className="mx-auto text-center py-4 sm:px-8 my-2 text-4xl rounded-md drop-shadow-[0_0_2px_white] font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-800 w-[95%] xs:w-fit">
+        <h1 className="mx-auto text-center py-4 sm:px-8 my-2 text-4xl rounded-md drop-shadow-[0_0_1px_white] font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-800 w-[95%] xs:w-fit">
           Coding Journey
         </h1>
 

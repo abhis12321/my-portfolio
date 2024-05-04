@@ -23,19 +23,19 @@ export default function NavBar() {
           <FontAwesomeIcon icon={faXmark} size='sm' className="hidden cutX" />
         </div>
 
-        <div className="w-full lg:w-fit flex items-center justify-center"><Link href="/" className="w-full font-semibold drop-shadow-[0_0_3px_black] overflow-hidden flex items-center justify-center py-4 lg:py-3 lg:px-6 lg:rounded-lg hover:bg-slate-950/30 hover:text-white dark:hover:bg-gray-400/30 hover:lgshadow-[0_0_3px_gray]" >
+        <div className="w-full lg:w-fit flex items-center justify-center"><Link href="/" className="w-full font-semibold drop-shadow-[0_0_4px_black] overflow-hidden flex items-center justify-center py-4 lg:py-3 lg:px-6 lg:rounded-lg hover:bg-slate-950/30 hover:text-white dark:hover:bg-gray-400/30" >
           Home
         </Link></div>
 
-        <div className="w-full lg:w-fit flex items-center justify-center"><Link href="/projects" className="w-full font-semibold drop-shadow-[0_0_3px_black] overflow-hidden flex items-center justify-center py-4 lg:py-3 lg:px-6 lg:rounded-lg hover:bg-slate-950/30 hover:text-white dark:hover:bg-gray-400/30 hover:lgshadow-[0_0_3px_gray]" >
+        <div className="w-full lg:w-fit flex items-center justify-center"><Link href="/projects" className="w-full font-semibold drop-shadow-[0_0_4px_black] overflow-hidden flex items-center justify-center py-4 lg:py-3 lg:px-6 lg:rounded-lg hover:bg-slate-950/30 hover:text-white dark:hover:bg-gray-400/30" >
           Projects
         </Link></div>
 
-        <div className="w-full lg:w-fit flex items-center justify-center"><Link href="/#about" className="w-full font-semibold drop-shadow-[0_0_3px_black] overflow-hidden flex items-center justify-center py-4 lg:py-3 lg:px-6 lg:rounded-lg hover:bg-slate-950/30 hover:text-white dark:hover:bg-gray-400/30 hover:lgshadow-[0_0_3px_gray]" >
+        <div className="w-full lg:w-fit flex items-center justify-center"><Link href="/#about" className="w-full font-semibold drop-shadow-[0_0_4px_black] overflow-hidden flex items-center justify-center py-4 lg:py-3 lg:px-6 lg:rounded-lg hover:bg-slate-950/30 hover:text-white dark:hover:bg-gray-400/30" >
           About
         </Link></div>
 
-        <div className="w-full lg:w-fit flex items-center justify-center"><Link href="/contact" className="w-full font-semibold drop-shadow-[0_0_3px_black] overflow-hidden flex items-center justify-center py-4 lg:py-3 lg:px-6 lg:rounded-lg hover:bg-slate-950/30 hover:text-white dark:hover:bg-gray-400/30 hover:lgshadow-[0_0_3px_gray]" >
+        <div className="w-full lg:w-fit flex items-center justify-center"><Link href="/contact" className="w-full font-semibold drop-shadow-[0_0_4px_black] overflow-hidden flex items-center justify-center py-4 lg:py-3 lg:px-6 lg:rounded-lg hover:bg-slate-950/30 hover:text-white dark:hover:bg-gray-400/30" >
           Contact
         </Link></div>
 
