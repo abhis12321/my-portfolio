@@ -6,11 +6,11 @@ import { faCopyright } from '@fortawesome/free-regular-svg-icons';
 
 export default function Footer() {
   return (
-    <div className="flex flex-col [background-color:black] border-t-2 border-gray-900 opacity-85">
+    <div className="flex flex-col bg-black border-t-2 border-gray-900 opacity-85 text-gray-50">
       <div className='px-3 xm:px-8 flex flex-col md:flex-row items-center justify-around flex-1'>
         <div className="md:w-[40%] w-full flex flex-col items-center">
           <div className="">
-            <h2 className="font-bold text-4xl text-center rounded-md text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 w-fit leading-[4rem]"><span>@</span>bhishek singh</h2>
+            <h2 className="font-bold text-4xl text-center rounded-md text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-500 w-fit leading-[4rem]"><span className=' font-extrabold'>@</span>bhishek singh</h2>
           </div>
           <div className="py-4 flex justify-around items-center bg-slate50 rounded-lg self-center sm:self-auto w-[267px]">
             <Link
@@ -49,16 +49,16 @@ export default function Footer() {
           </div>
 
         </div>
-        <div className="flex justify-center md:justify-around gap-4 items-center w-full md:w-[60%]">
-          <div className="flex flex-col gap-2 justify-between items-start">
-            <Link href={'/'} className='font-semibold py-1 px-3 rounded-md hover:text-gray-400 text-center'>home</Link>
-            <Link href={'/about'} className='font-semibold py-1 px-3 rounded-md hover:text-gray-400 text-center'>about</Link>
-            <Link href={'#learnings'} className='font-semibold py-1 px-3 rounded-md hover:text-gray-400 text-center'>learnings</Link>
+        <div className="flex flex-col md:flex-row justify-center md:justify-around gap-4 items-center w-full md:w-[60%]">
+          <div className="flex md:flex-col md:gap-2 justify-between items-start">
+            <Link href={'/'} className='py-1 px-3 rounded-md hover:text-gray-400 text-center'>home</Link>
+            <Link href={'/about'} className='py-1 px-3 rounded-md hover:text-gray-400 text-center'>about</Link>
+            <Link href={'#learnings'} className='py-1 px-3 rounded-md hover:text-gray-400 text-center'>learnings</Link>
           </div>
-          <div className="flex flex-col gap-2 justify-between items-start">
-            <Link href={'/projects'} className='font-semibold py-1 px-3 rounded-md hover:text-gray-400 text-center'>projects</Link>
-            <Link href={'/contact'} className='font-semibold py-1 px-3 rounded-md hover:text-gray-400 text-center'>contact</Link>
-            <Link href={'https://student-login-app-nextjs.onrender.com/'} className='font-semibold py-1 px-3 rounded-md hover:text-gray-400 text-center' target='_blank'>chat with me</Link>
+          <div className="flex md:flex-col md:gap-2 justify-between items-start">
+            <Link href={'/projects'} className='py-1 px-3 rounded-md hover:text-gray-400 text-center'>projects</Link>
+            <Link href={'/contact'} className='py-1 px-3 rounded-md hover:text-gray-400 text-center'>contact</Link>
+            <Link href={'https://student-login-app-nextjs.onrender.com/'} className='py-1 px-3 rounded-md hover:text-gray-400 text-center' target='_blank'>chat with me</Link>
           </div>
         </div>
       </div>
