@@ -6,7 +6,7 @@ import Image from 'next/image';
 export default function page() {
   return (
     <div className='flex flex-col pt-5'>
-      <h1 className="mx-auto text-center py-4 sm:px-8 my-2 text-4xl rounded-md drop-shadow-[0_0_3px_gray] dark:drop-shadow-[0_0_3px_black] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-800 w-[95%] xs:w-fit">
+      <h1 className="mx-auto text-center py-4 sm:px-8 my-2 text-4xl md:text-5xl rounded-md drop-shadow-[0_0_1px_black] dark:drop-shadow-[0_0_3px_black] font-extrabold md:font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-800 w-[95%] xs:w-fit">
         My Projects
       </h1>
 

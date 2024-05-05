@@ -52,8 +52,8 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-center md:justify-around gap-4 items-center w-full md:w-[60%]">
           <div className="flex md:flex-col md:gap-2 justify-between items-start">
             <Link href={'/'} className='py-1 px-3 rounded-md hover:text-gray-400 text-center'>home</Link>
-            <Link href={'/about'} className='py-1 px-3 rounded-md hover:text-gray-400 text-center'>about</Link>
-            <Link href={'#learnings'} className='py-1 px-3 rounded-md hover:text-gray-400 text-center'>learnings</Link>
+            <Link href={'/#about'} className='py-1 px-3 rounded-md hover:text-gray-400 text-center'>about</Link>
+            <Link href={'/#learnings'} className='py-1 px-3 rounded-md hover:text-gray-400 text-center'>learnings</Link>
           </div>
           <div className="flex md:flex-col md:gap-2 justify-between items-start">
             <Link href={'/projects'} className='py-1 px-3 rounded-md hover:text-gray-400 text-center'>projects</Link>
