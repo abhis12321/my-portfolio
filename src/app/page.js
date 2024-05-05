@@ -13,8 +13,8 @@ import {
   faSquareJs,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
-import AnimatedPhoto from "./animated_avatar";
-import Writer from "./animated_typewritter";
+import AnimatedPhoto from "./_components/animated_avatar";
+import Writer from "./_components/animated_typewritter";
 
 export default function page() {
   return (

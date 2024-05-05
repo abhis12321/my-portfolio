@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-import ToggleModeButton from "./_components/ToggleModeButton";
+import ToggleModeButton from "./ToggleModeButton";
 
 export default function NavBar() {
   const handleRight = () => {
