@@ -1,5 +1,4 @@
-import { faAws, faBootstrap, faCss3Alt, faGithub, faHtml5, faJava, faReact, faSquareJs } from '@fortawesome/free-brands-svg-icons'
-import { faC, faN } from '@fortawesome/free-solid-svg-icons'
+import { faBootstrap, faReact } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
 import React from 'react'
@@ -10,44 +9,30 @@ export default function Skills() {
       <h1 className="mx-auto text-center py-5 sm:px-8 text-4xl md:text-5xl rounded-md drop-shadow-[0_0_1px_white] font-extrabold md:font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-800 w-[95%] xs:w-fit">
         Skills
       </h1>
-      <div className="flex flex-wrap items-center justify-center gap-6 xs:gap-8 w-[98%] max-w-[800px] mx-auto bg-slate-700 dark:bg-gradient-to-b dark:from-gray-900 dark:via-cyan-950 dark:to-slate-900 shadow-[0_0_5px_white] px-4 py-8 my-4 rounded-xl text-gray-400 text-7xl xs:text-8xl sm:text-9xl">
-        <FontAwesomeIcon icon={faC} size="1x" className="text-blue-800 drop-shadow-[0_0_1px_blue]" />
-        <FontAwesomeIcon
-          icon={faJava}
-          size="1x"
-          className="text-orange-800 drop-shadow-[0_0_1px_orange]"
-        />
-        <FontAwesomeIcon
-          icon={faHtml5}
-          size="1x"
-          className="text-orange-600 drop-shadow-[0_0_1px_orange]"
-        />
-        <FontAwesomeIcon
-          icon={faCss3Alt}
-          size="1x"
-          className="text-blue-700 drop-shadow-[0_0_1px_blue]"
-        />
-        <FontAwesomeIcon
-          icon={faSquareJs}
-          size="1x"
-          className="text-yellow-600 drop-shadow-[0_0_1px_yellow]"
-        />
+      <div className="flex flex-wrap items-center justify-center gap-6 xs:gap-8 w-[98%] max-w-[800px] mx-auto bg-slate-700 dark:bg-gradient-to-b dark:from-gray-900 dark:via-cyan-950 dark:to-slate-900 shadow-[0_0_5px_white] px-4 py-8 my-4 rounded-xl text-gray-400 text-7xl xs:text-8xl sm:text-[9rem]">
+        
+        <Image src={'/c.svg'} alt='c-lang' width={125} height={150} className=''/>
+        <Image src={'/java.svg'} alt='java' width={85} height={150} className='px-3 w-[110px]'/>
+        <Image src={'/html.svg'} alt='html' width={105} height={150} className=''/>
+        <Image src={'/css.svg'} alt='css' width={105} height={150} className=''/>
+        <Image src={'/js.svg'} alt='js' width={105} height={150} className=''/>
         <FontAwesomeIcon
           icon={faBootstrap}
           size="1x"
           className="text-violet-700 drop-shadow-[0_0_1px_indigo]"
         />
-        <Image src={'/tailwindcss.svg'} alt='tailwind' width={150} height={150} className='rounded-3xl'/>
-        <FontAwesomeIcon
-          icon={faGithub}
-          size="1x"
-          className="text-gray-300 drop-shadow-[0_0_1px_black]"
-        />
-        <FontAwesomeIcon icon={faReact} size="1x" className="text-sky-600 drop-shadow-[0_0_1px_blue]" />
-        <FontAwesomeIcon icon={faN} size="5x" className="bg-black px-7 py-5 md:px-8 md:py-5 rounded-full h-[4rem] md:h-[5rem]"/>
-        <FontAwesomeIcon icon={faAws} size="1x" className="text-gray-300 drop-shadow-[0_0_1px_red]" />
-        <Image src={'/mysql.svg'} alt='tailwind' width={150} height={150} className='rounded-3xl'/>
-        <Image src={'/mongodb.svg'} alt='tailwind' width={150} height={150} className='rounded-3xl'/>
+        <Image src={'/tailwindcss.svg'} alt='tailwind' width={150} height={150} className='rounded-3xl bg-white py-12 px-1'/>
+        
+        <Image src={'/github.svg'} alt='github.js' width={150} height={150} className='rounded-full bg-white ring-2'/>
+
+        <FontAwesomeIcon icon={faReact} size="1x" className="text-sky-600 drop-shadow-[0_0_1px_blue]" />       
+
+        <Image src={'/next-1.svg'} alt='next.js' width={150} height={150} className='rounded-full bg-white ring-2'/>
+        <Image src={'/nodejs.svg'} alt='node.js' width={155} height={150} className='rounded-full bg-gray-100 p-1 ring-2'/>
+        <Image src={'/aws.svg'} alt='aws' width={150} height={150} className='rounded-3xl bg-white py-8 px-2'/>
+        <Image src={'/mysql.svg'} alt='mysql' width={140} height={140} className='rounded-3xl py-3 px-3 bg-white'/>
+        <Image src={'/oracle.svg'} alt='oracle' width={150} height={150} className='rounded-3xl bg-white px-1 py-1'/>
+        <Image src={'/mongodb.svg'} alt='mongoDB' width={150} height={150} className='rounded-3xl'/>
       </div>
     </div>
 
