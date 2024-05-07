@@ -13,16 +13,16 @@ import {
   faSquareJs,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
-import AnimatedPhoto from "./_components/animated_avatar";
-import Writer from "./_components/animated_typewritter";
+import AnimatedPhoto from "./_components/Animated_avatar";
+import Writer from "./_components/Animated_typewritter";
+import Skills from "./_components/Skills";
+import About from "./_components/About";
 
 export default function page() {
   return (
     <div className="">
-      <div
-        className="flex flex-col-reverse md:flex-row items-center justify-center bg-gradient-to-br dark:bg-gradient-to-r from-teal-950/80 via-sky-950/90 to-sky-950 dark:from-cyan-950/70 dark:via-slate-900/80 dark:to-gray-950 text-white bg-[ul('/Ab2.png')] bg-no-repeat bg-center py-2 border-b-2 border-gray-800"
-        style={{ minHeight: "calc(100vh - 4rem)" }}
-      >
+      <div className="flex flex-col-reverse md:flex-row items-center justify-center bg-gradient-to-br dark:bg-gradient-to-r from-teal-950/80 via-sky-950/90 to-sky-950 dark:from-slate-900 dark:via-cyan-950 dark:to-slate-900 text-white bg-[ul('/Ab2.png')] bg-no-repeat bg-center py-2 border-b-2 border-gray-800"
+        style={{ minHeight: "calc(100vh - 4rem)" }} >
         <div className="flex flex-col gap-4 max-w-[95%] md:w-[66%] md:pl-[9vw] lg:pl-0 lg:w-[45%] mx-auto items-center md:items-start">
           <h3 className="text-justify drop-shadow-[0_0_10px_red] text-xl md:text-2xl md:font-semibold">
             👋🏻 Hi there, I&apos;m
@@ -73,72 +73,8 @@ export default function page() {
         </div>
         <AnimatedPhoto />
       </div>
-
-      <div className="flex flex-col items-center justify-evenly py-8 border-b-2 border-slate-800 bg-gray-400 dark:bg-slate-950" id="about">
-        <div className="rounded-2xl w-[98%] max-w-[650px] flex flex-col items-center justify-evenly bg-slate-700 dark:bg-gradient-to-b dark:from-gray-950 dark:via-cyan-950 dark:to-slate-900 shadow-[0_0_5px_white] py-4 px-3 xs:px-6 sm:px-12">
-          <h1 className="text-center py-4 px-8 mb-2 rounded-md drop-shadow-[0_0_1px_white] text-4xl sm:text-5xl font-extrabold sm:font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-900 w-fit">
-            About me
-          </h1>
-          <div className="text-center text-gray-400 font-mono text-[14px] xs:text-[16px]">
-            I am a passionate web developer and
-            <span className="font-bold text-red-900/95">
-              {" "}
-              currently pursuing my BTech(Computer Science and Engineering) from
-              Dr. Ambedkar Institute of Technology for Handicapped Kanpur
-            </span>
-            , I&apos;m skilled in front-end technologies like HTML5, CSS3,
-            JavaScript, Bootstrap, Tailwind and React.js as well as back-end
-            frameworks like Node.js , Express.js, Next.js. Also Skilled in
-            responsive design principles and eager to contribute innovative
-            solutions to web development projects. Possess hands-on experience
-            with personal projects, demonstrating strong problemsolving
-            abilities. Seeking to leverage academic foundation and practical
-            skills to contribute effectively as a valuable member of a dynamic
-            development team
-          </div>
-        </div>
-      </div>
-
-      <div className="flex flex-col flex-wrap items-center justify-center border-b-2 border-slate-800 py-4 bg-lime-900/20 dark:bg-transparent">
-        <h1 className="mx-auto text-center py-4 sm:px-8 my-2 text-4xl md:text-5xl rounded-md drop-shadow-[0_0_1px_black] font-extrabold md:font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-800 w-[95%] xs:w-fit">
-          Skills
-        </h1>
-        <div className="flex flex-wrap items-center justify-center gap-6 xs:gap-8 w-[98%] max-w-[800px] mx-auto bg-slate-700 dark:bg-gradient-to-b dark:from-gray-900 dark:via-cyan-950 dark:to-slate-900 shadow-[0_0_5px_white] p-4 rounded-xl text-gray-400 text-7xl xs:text-9xl">
-          <FontAwesomeIcon icon={faC} size="1x" className="text-blue-800" />
-          <FontAwesomeIcon
-            icon={faJava}
-            size="1x"
-            className="text-orange-800"
-          />
-          <FontAwesomeIcon
-            icon={faHtml5}
-            size="1x"
-            className="text-orange-600"
-          />
-          <FontAwesomeIcon
-            icon={faCss3Alt}
-            size="1x"
-            className="text-blue-800"
-          />
-          <FontAwesomeIcon
-            icon={faSquareJs}
-            size="1x"
-            className="text-yellow-700"
-          />
-          <FontAwesomeIcon
-            icon={faBootstrap}
-            size="1x"
-            className="text-violet-800"
-          />
-          <FontAwesomeIcon
-            icon={faGithub}
-            size="1x"
-            className="text-gray-500"
-          />
-          <FontAwesomeIcon icon={faReact} size="1x" className="text-sky-600" />
-        </div>
-      </div>
-      
+      <About />
+      <Skills />
       <section className="gap-6 bg-slate-400 dark:bg-transparent text-white py-5 flex items-center justify-center flex-col" id="learnings">
         <h1 className="mx-auto text-center py-4 sm:px-8 my-2 text-4xl md:text-5xl rounded-md drop-shadow-[0_0_1px_green] font-extrabold md:font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-800 w-[95%] xs:w-fit">
           Coding Journey
