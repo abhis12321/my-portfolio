@@ -22,7 +22,7 @@ import CodingJourney from "./_components/CodingJourney";
 export default function page() {
   return (
     <div className="">
-      <div className="flex flex-col-reverse md:flex-row items-center justify-center bg-gradient-to-br dark:bg-gradient-to-r from-teal-950/80 via-sky-950/90 to-sky-950 dark:from-slate-900 dark:via-cyan-950 dark:to-slate-900 text-white bg-[ul('/Ab2.png')] bg-no-repeat bg-center py-2 border-b-2 border-gray-800"
+      <div className="flex flex-col-reverse md:flex-row items-center justify-center bg-gradient-to-br dark:bg-gradient-to-r from-teal-950/80 via-sky-950/90 to-sky-950 dark:from-slate-800 dark:via-cyan-950 dark:to-slate-900 text-white bg-[ul('/Ab2.png')] bg-no-repeat bg-center py-2 border-b-2 border-gray-800"
         style={{ minHeight: "calc(100vh - 4rem)" }} >
         <div className="flex flex-col gap-4 max-w-[95%] md:w-[66%] md:pl-[9vw] lg:pl-0 lg:w-[45%] mx-auto items-center md:items-start">
           <h3 className="text-justify drop-shadow-[0_0_10px_red] text-xl md:text-2xl md:font-semibold">
@@ -76,7 +76,7 @@ export default function page() {
       </div>
       <About />
       <Skills />
-      <CodingJourney />
+      {/* <CodingJourney /> */}
     </div>
   );
 }
