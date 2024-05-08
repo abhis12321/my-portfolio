@@ -9,7 +9,7 @@ export default function AnimationReact() {
               <Image
                 width={200}
                 height={200}
-                src={'/Ab5.jpg'}
+                src={'/img/others/Ab5.jpg'}
                 alt="@me"
                 className="absolute w-full h-full rounded-full object-fit object-center shadow-[0_0_10px_red] opacity-70 md:[transform:rotateY(180deg)] "
               />
@@ -17,7 +17,7 @@ export default function AnimationReact() {
               <Image
                 width={200}
                 height={200}
-                src={"/Ab3.jpg"}
+                src={"/img/others/Ab3.jpg"}
                 alt="@me"
                 className="absolute w-full h-full rounded-full object-fit object-center opacity-60"
               />
