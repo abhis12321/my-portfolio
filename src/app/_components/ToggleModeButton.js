@@ -1,6 +1,6 @@
 import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React from 'react'
+
 
 export default function ToggleModeButton() {
     const toggleMode = e => {
@@ -9,9 +9,9 @@ export default function ToggleModeButton() {
         document.body.classList.toggle('dark');
     }
   return (
-    <div className='cursor-pointer *:bg-gray-500 *:rounded-full flex items-center *:hover:scale-110 justify-center h-8 w-8 mx-auto py-8 lg:py-0 lg:ml-4' onClick={toggleMode}>
-      <FontAwesomeIcon icon={faSun} className='p-2 text-white' id='dark'/>
-      <FontAwesomeIcon icon={faMoon} className='text-slate-900 py-2 px-[10px] hidden' id='light'/>
+    <div className='cursor-pointer *:rounded-full flex items-center justify-center h-8 w-8 mx-auto py-8 lg:py-0 lg:ml-4' onClick={toggleMode}>
+      <FontAwesomeIcon icon={faSun} className='p-2 bg-gray-600 text-lg text-white hover:scale-110' id='dark'/>
+      <FontAwesomeIcon icon={faMoon} className='text-slate-700 bg-gray-300 text-lg py-[6px] px-[8.5px] hover:scale-110 hidden' id='light'/>
     </div>
   )
 }
