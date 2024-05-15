@@ -6,10 +6,10 @@ import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-
 export default function Footer() {
   return (
     <div className="flex flex-col bg-black border-t-2 border-gray-900 opacity-85 text-gray-400">
-      <div className='px-3 xm:px-8 flex flex-col md:flex-row items-center justify-around flex-1'>
+      <div className='px-3 xs:px-8 flex flex-col md:flex-row items-center justify-around flex-1'>
         <div className="md:w-[40%] w-full flex flex-col items-center">
-          <div className="py-2">
-            <h2 className="mx-auto py-2 text-center text-4xl rounded-md drop-shadow-[3px_3px_1px_black] dark:drop-shadow-[3px_3px_1px_white] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-700 w-[95%] xs:w-fit leading-[rem]"><span className=' font-extrabold'>@</span>bhishek singh</h2>
+          <div className="py-2 w-full">
+            <h2 className="mx-auto py-2 text-center text-4xl rounded-md drop-shadow-[3px_3px_1px_black] dark:drop-shadow-[3px_3px_1px_white] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-700 w-fit"><span className=' font-extrabold'>@</span>bhishek singh</h2>
             <p className="text-center text-yellow-500 text-sm font-semibold">abhisheksingh2359328@gmail.com</p>
           </div>
           <div className="py-4 flex justify-around items-center bg-slate50 rounded-lg self-center sm:self-auto w-[267px]">
