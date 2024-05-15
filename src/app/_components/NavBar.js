@@ -35,7 +35,7 @@ export default function NavBar() {
           About
         </Link></div>
 
-        <div className="w-full lg:w-fit flex items-center justify-center"><Link href="/contact" className="w-full font-semibold overflow-hidden flex items-center justify-center py-4 lg:py-3 lg:px-6 lg:rounded-lg hover:bg-slate-950/30 hover:text-white dark:hover:bg-gray-400/30 lg:hover:ring-2 ring-gray-300" >
+        <div className="w-full lg:w-fit flex items-center justify-center"><Link href="#contact" className="w-full font-semibold overflow-hidden flex items-center justify-center py-4 lg:py-3 lg:px-6 lg:rounded-lg hover:bg-slate-950/30 hover:text-white dark:hover:bg-gray-400/30 lg:hover:ring-2 ring-gray-300" >
           Contact
         </Link></div>
 

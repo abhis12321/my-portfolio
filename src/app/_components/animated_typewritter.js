@@ -14,7 +14,7 @@ export default function TypingEffect() {
 } , []);
 
   return (
-    <div id="typewriter" className="text-3xl xs:text-4xl lg:text-5xl drop-shadow-[1px_1px_1px_red] font-semibold text-center md:text-left self-center md:self-auto mx-auto md:mx-0">
+    <div id="typewriter" className="text-3xl xs:text-4xl lg:text-5xl drop-shadow-[3px_2px_1px_black] sm:drop-shadow-[4px_2px_1px_black] dark:drop-shadow-[2px_2px_1px_red] font-semibold text-center md:text-left self-center md:self-auto mx-auto md:mx-0 text-blue-600">
     </div>
   );
 }
