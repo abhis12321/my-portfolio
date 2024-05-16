@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import NavBar from './_components/NavBar'
 import Footer from './_components/Footer'
+import GotoTopButton from './_components/GotoTopButton'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
           <div className='pt-[4.6rem]' style={{minHeight:'calc(100vh - 4.6rem'}}>
             {children}
           </div>
+          <GotoTopButton />
           <Footer />
       </body>
     </html>
