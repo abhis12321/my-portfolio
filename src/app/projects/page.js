@@ -6,13 +6,13 @@ import SpecialTextShadow from '../_components/SpecialTextShadow';
 
 export default function page() {
   return (
-    <div className='flex flex-col pt-5'>
+    <div className='flex flex-col pt-5 bg-blue-950/5'>
       {/* <h1 className="mx-auto text-center py-4 sm:px-8 my-2 text-4xl md:text-5xl rounded-md drop-shadow-[2px_5px_1px_black] dark:drop-shadow-[3px_4px_3px_white] font-extrabold md:font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-800 w-[95%] xs:w-fit">
         My Projects
       </h1> */}
       <SpecialTextShadow content={'My Projects'} />
 
-      <div className="bg-gradient-to-r from-slate-950/20 to-gray-50 dark:from-gray-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
         <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Student&rsquo;Media</h2>
         <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> ReactJs , Next.js , CSS , MongoDb , Socket.io , Nodemailer & Tailwind</p>
 
@@ -29,7 +29,7 @@ export default function page() {
       </div>
 
 
-      <div className="bg-gradient-to-r from-gray-950/20 to-gray-50 dark:from-gray-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
         <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">E-commerce Web App</h2>
         <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , React.js , Next.js , MongoDB & Tailwind</p>
 
@@ -45,7 +45,7 @@ export default function page() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-gray-950/20 to-gray-50 dark:from-gray-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
         <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Node.js Chat App</h2>
         <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , Node.js , Express.js , MongoDB , Socket.io</p>
 
@@ -61,7 +61,7 @@ export default function page() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-gray-950/20 to-gray-50 dark:from-gray-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
         <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Password Generator</h2>
         <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , JavaScript</p>
 
@@ -77,7 +77,7 @@ export default function page() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-gray-950/20 to-gray-50 dark:from-gray-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
         <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Simen Says</h2>
         <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , JavaScript</p>
 
@@ -93,7 +93,7 @@ export default function page() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-gray-950/20 to-gray-50 dark:from-gray-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
         <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Temperature Convertor</h2>
         <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , JavaScript</p>
 
@@ -109,7 +109,7 @@ export default function page() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-gray-950/20 to-gray-50 dark:from-gray-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
         <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Task Manager (ToDo-List)</h2>
         <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> ReactJs , CSS , JavaScript</p>
 
@@ -125,7 +125,7 @@ export default function page() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-gray-950/20 to-gray-50 dark:from-gray-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
         <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Audio Player Web App</h2>
         <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , React.js , Next.js & Tailwind</p>
 
@@ -141,7 +141,7 @@ export default function page() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-gray-950/20 to-gray-50 dark:from-gray-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
         <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Text-Utilities-App</h2>
         <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> ReactJs , CSS , Routes</p>
 
@@ -157,7 +157,7 @@ export default function page() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-gray-950/20 to-gray-50 dark:from-gray-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
         <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Tic-Tac-Toe</h2>
         <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> ReactJs , CSS , Routes</p>
 
@@ -174,7 +174,7 @@ export default function page() {
       </div>
 
 
-      <div className="bg-gradient-to-r from-gray-950/20 to-gray-50 dark:from-gray-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
         <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Real-time LeaderBoard Management</h2>
         <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> ReactJs , CSS , JavaScript & Tailwind</p>
 
@@ -191,7 +191,7 @@ export default function page() {
       </div>
 
 
-      <div className="bg-gradient-to-r from-gray-950/20 to-gray-50 dark:from-gray-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
         <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">News-Hunt</h2>
         <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> ReactJs , CSS , Routes</p>
 
@@ -207,7 +207,7 @@ export default function page() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-gray-950/20 to-gray-50 dark:from-gray-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
         <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Weather-App</h2>
         <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , JavaScript</p>
 

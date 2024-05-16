@@ -26,8 +26,8 @@ import Contact from "./_components/Contact";
 export default function page() {
   return (
     <div className="">
-      <div className="flex flex-col-reverse md:px-16 lg:px-24 xl:px-36 md:flex-row gap-4 md:gap-0 items-center justify-center bg-white dark:bg-gray-950 text-gray-600 dark:text-blue-50 bg-[ul('/Ab2.png')] bg-no-repeat bg-center py-2 dark:border-b-2 border-gray-800 "
-        style={{ minHeight: "calc(100vh - 4.6rem)" }} >
+      <div className="flex flex-col-reverse md:px-16 lg:px-24 xl:px-36 md:flex-row gap-4 md:gap-0 items-center justify-center bg-white text-gray-600 dark:text-blue-50 dark:[background:url('/img/others/darkbg.gif')] py-2 border-b-2 border-gray-400 dark:border-gray-800 "
+        style={{ minHeight: "calc(100vh - 4rem)" }} >
         <div className="flex flex-col gap-3 md:gap-4 md:flex-1 items-center md:items-start">
           <h3 className="text-justify text-2xl lg:text-3xl font-bold">
           <span className="drop-shadow-[0_0_5px_red]">👋🏻</span>Hi there, I&apos;m

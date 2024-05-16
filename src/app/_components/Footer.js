@@ -9,10 +9,10 @@ export default function Footer() {
       <div className='px-3 xs:px-8 flex flex-col md:flex-row items-center justify-around flex-1'>
         <div className="md:w-[40%] w-full flex flex-col items-center">
           <div className="py-2 w-full">
-            <h2 className="mx-auto py-2 text-center text-4xl rounded-md drop-shadow-[3px_3px_1px_black] dark:drop-shadow-[3px_3px_1px_white] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-700 w-fit"><span className=' font-extrabold'>@</span>bhishek singh</h2>
+            <h2 className="mx-auto py-2 text-center text-4xl rounded-md drop-shadow-[3px_3px_1px_white] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-700 to-violet-700 w-fit"><span className=' font-extrabold'>@</span>bhishek singh</h2>
             <p className="text-center text-yellow-500 text-sm font-semibold">abhisheksingh2359328@gmail.com</p>
           </div>
-          <div className="py-4 flex justify-around items-center bg-slate50 rounded-lg self-center sm:self-auto w-[267px]">
+          <div className="py-2 md:py-4 flex justify-around items-center bg-slate50 rounded-lg self-center sm:self-auto w-[267px]">
             <Link
               target="_blank"
               href={`https://github.com/abhis12321`}
@@ -49,21 +49,21 @@ export default function Footer() {
           </div>
 
         </div>
-        <div className="flex flex-col md:flex-row justify-center md:justify-around gap-4 items-center w-full md:w-[60%]">
+        <div className="flex flex-col md:flex-row justify-center md:justify-around md:gap-4 items-center w-full md:w-[60%]">
           <div className="flex md:flex-col md:gap-2 justify-between items-start">
-            <Link href={'/'} className='py-1 px-3 rounded-md hover:text-gray-100 text-center'>home</Link>
-            <Link href={'/#about'} className='py-1 px-3 rounded-md hover:text-gray-100 text-center'>about</Link>
-            <Link href={'/#learnings'} className='py-1 px-3 rounded-md hover:text-gray-100 text-center'>learnings</Link>
+            <Link href={'/'} className='py-1 px-3 rounded-md hover:text-gray-50 text-center'>home</Link>
+            <Link href={'/#about'} className='py-1 px-3 rounded-md hover:text-gray-50 text-center'>about</Link>
+            <Link href={'/#learnings'} className='py-1 px-3 rounded-md hover:text-gray-50 text-center'>learnings</Link>
           </div>
           <div className="flex md:flex-col md:gap-2 justify-between items-start">
-            <Link href={'/projects'} className='py-1 px-3 rounded-md hover:text-gray-100 text-center'>projects</Link>
-            <Link href={'#contact'} className='py-1 px-3 rounded-md hover:text-gray-100 text-center'>contact</Link>
-            <Link href={'https://student-login-app-nextjs.onrender.com/'} className='py-1 px-3 rounded-md hover:text-gray-100 text-center' target='_blank'>chat with me</Link>
+            <Link href={'/projects'} className='py-1 px-3 rounded-md hover:text-gray-50 text-center'>projects</Link>
+            <Link href={'/#contact'} className='py-1 px-3 rounded-md hover:text-gray-50 text-center'>contact</Link>
+            <Link href={'https://student-login-app-nextjs.onrender.com/'} className='py-1 px-3 rounded-md hover:text-gray-50 text-center' target='_blank'>chat with me</Link>
           </div>
         </div>
       </div>
 
-      <div className="text-slate-50 text-center text-sm p-2 font-bold"><span className="font-extrabold">&copy;</span>2024 Abhishek Singh! A personal portfolio!!</div>
+      <div className="text-slate-50 text-center text-sm py-3 font-bold"><span className="font-extrabold">&copy;</span>2024 Abhishek Singh! A personal portfolio!!</div>
     </div>
   )
 }

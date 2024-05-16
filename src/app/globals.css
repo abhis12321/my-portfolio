@@ -7,4 +7,13 @@
   .text-balance {
     text-wrap: balance;
   }
+  .border-l1 {
+    border-radius: 5rem 15rem 9rem 15rem;
+  }
+  .border-l2 {
+    border-radius: 17rem 5rem 5rem 19rem;
+  }
+  .border-l3 {
+    border-radius: 13rem 6rem 16rem 12rem;
+  }
 }
