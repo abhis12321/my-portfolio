@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect/dist/core';
 
 export default function TypingEffect() {
   React.useEffect(() => {
-    let newwriter = new Typewriter('#typewriter', {
+    new Typewriter('#typewriter', {
         strings: ['Front-End Developer', 'Back-End Developer' , 'Full Stack Developer', 'MERN-Stack Developer' , 'Problem-Solver'],
         autoStart: true,
         loop:true,

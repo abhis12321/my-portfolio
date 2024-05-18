@@ -11,18 +11,16 @@ export default function AnimationReact() {
                 height={200}
                 src={'/img/others/Ab5.jpg'}
                 alt="@me"
-                className="absolute w-full h-full rounded-full object-fit object-center shadow-[0_0_5px_black] dark:shadow-[0_0_5px_red] dark:opacity-55 md:[transform:rotateY(180deg)] "
+                className="absolute w-full h-full rounded-full object-fit object-centerdark:shadow-[2px_2px_1px_red] dark:opacity-80 md:[transform:rotateY(180deg)] ring-2 ring-green-500"
               />
-            <div className="absolute bg-slate-950 w-full h-full rounded-full [backface-visibility:hidden] flex flex-col items-center justify-center gap-4">
+            <div className="absolute bg-white dark:[background:url('/img/others/darkbg.gif')] w-full h-full [backface-visibility:hidden] flex flex-col items-center justify-center gap-4 rounded-full ring-2">
               <Image
                 width={200}
                 height={200}
-                src={"/img/others/Ab3.jpg"}
+                src={"/img/others/contact.png"}
                 alt="@me"
-                className="absolute w-full h-full rounded-full object-fit object-center dark:opacity-50"
+                className="absolute w-full h-full rounded-full object-fit object-center dark:opacity-70"
               />
-                {/* <h1 className="text-lg font-bold text-purple-200 font-mono">Full Stack Web Developer</h1>
-                <h1 className="text-2xl text-white font-medium">Jack Hanma</h1> */}
             </div>
           </div>
           {/* <div className="absolute top-[-1.5rem] left-[-1.5rem] animate-spin [animationDuration:1800ms] w-32 h-32 md:w-72 md:h-72 xl:w-80 xl:h-80 border-l1 bg-violet-200/40"></div>

@@ -6,15 +6,15 @@ import SpecialTextShadow from '../_components/SpecialTextShadow';
 
 export default function page() {
   return (
-    <div className='flex flex-col pt-5 bg-blue-950/5'>
+    <div className='flex gap-6 flex-col py-3 bg-blue-950/5'>
       {/* <h1 className="mx-auto text-center py-4 sm:px-8 my-2 text-4xl md:text-5xl rounded-md drop-shadow-[2px_5px_1px_black] dark:drop-shadow-[3px_4px_3px_white] font-extrabold md:font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-800 w-[95%] xs:w-fit">
         My Projects
       </h1> */}
       <SpecialTextShadow content={'My Projects'} />
 
-      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
-        <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Student&rsquo;Media</h2>
-        <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> ReactJs , Next.js , CSS , MongoDb , Socket.io , Nodemailer & Tailwind</p>
+      <div className="bg-gradient-to-l from-blue-50 to-slate-50 dark:from-blue-900/60 dark:to-blue-950/65 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[97%] max-w-[900px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+        <h2 className="w-fit mx-auto sm:my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Student&rsquo;Media</h2>
+        <p className='text-[10px] xs:text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> ReactJs , Next.js , CSS , MongoDb , Socket.io , Nodemailer & Tailwind</p>
 
         <div className="flex flex-col sm:flex-row sm:gap-4 items-center">
           <Link href={'https://student-login-app-nextjs.onrender.com/'} target='blank' className='mx-auto rounded shadow-[0_0_3px_black] dark:shadow-[0_0_5px_white] my-4 max-h-[250px] sm:w-[40%] overflow-hidden' ><Image src={'/img/projects/studentOmedia2.png'} alt='demo-image' width={400} height={250} className='' /></Link>
@@ -29,9 +29,9 @@ export default function page() {
       </div>
 
 
-      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
-        <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">E-commerce Web App</h2>
-        <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , React.js , Next.js , MongoDB & Tailwind</p>
+      <div className="bg-gradient-to-l from-blue-50 to-slate-50 dark:from-blue-900/60 dark:to-blue-950/65 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[97%] max-w-[900px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+        <h2 className="w-fit mx-auto sm:my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">E-commerce Web App</h2>
+        <p className='text-[10px] xs:text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , React.js , Next.js , MongoDB & Tailwind</p>
 
         <div className="flex flex-col sm:flex-row sm:gap-4 items-center">
           <Link href={'/projects'} target='blank' className='mx-auto rounded shadow-[0_0_3px_black] dark:shadow-[0_0_5px_white] my-4 max-h-[250px] sm:w-[40%] overflow-hidden'><Image src={'/img/projects/pending.png'} alt='demo-image' width={400} height={250} className='' /> </Link>
@@ -45,9 +45,9 @@ export default function page() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
-        <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Node.js Chat App</h2>
-        <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , Node.js , Express.js , MongoDB , Socket.io</p>
+      <div className="bg-gradient-to-l from-blue-50 to-slate-50 dark:from-blue-900/60 dark:to-blue-950/65 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[97%] max-w-[900px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+        <h2 className="w-fit mx-auto sm:my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Node.js Chat App</h2>
+        <p className='text-[10px] xs:text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , Node.js , Express.js , MongoDB , Socket.io</p>
 
         <div className="flex flex-col sm:flex-row sm:gap-4 items-center">
           <Link href={'/projects'} target='blank' className='mx-auto rounded shadow-[0_0_3px_black] dark:shadow-[0_0_5px_white] my-4 max-h-[250px] sm:w-[40%] overflow-hidden'><Image src={'/img/projects/pending.png'} alt='demo-image' width={400} height={250} className='' /> </Link>
@@ -61,9 +61,9 @@ export default function page() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
-        <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Password Generator</h2>
-        <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , JavaScript</p>
+      <div className="bg-gradient-to-l from-blue-50 to-slate-50 dark:from-blue-900/60 dark:to-blue-950/65 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[97%] max-w-[900px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+        <h2 className="w-fit mx-auto sm:my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Password Generator</h2>
+        <p className='text-[10px] xs:text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , JavaScript</p>
 
         <div className="flex flex-col sm:flex-row sm:gap-4 items-center">
           <Link href={'https://abhis12321.github.io/password-generator/'} target='blank' className='mx-auto rounded shadow-[0_0_3px_black] dark:shadow-[0_0_5px_white] my-4 max-h-[250px] sm:w-[40%] overflow-hidden'><Image src={'/img/projects/passwordGenerator.png'} alt='demo-image' width={400} height={250} className='' /> </Link>
@@ -77,9 +77,9 @@ export default function page() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
-        <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Simen Says</h2>
-        <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , JavaScript</p>
+      <div className="bg-gradient-to-l from-blue-50 to-slate-50 dark:from-blue-900/60 dark:to-blue-950/65 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[97%] max-w-[900px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+        <h2 className="w-fit mx-auto sm:my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Simen Says</h2>
+        <p className='text-[10px] xs:text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , JavaScript</p>
 
         <div className="flex flex-col sm:flex-row sm:gap-4 items-center">
           <Link href={'https://abhis12321.github.io/simen_says/'} target='blank' className='mx-auto rounded shadow-[0_0_3px_black] dark:shadow-[0_0_5px_white] my-4 max-h-[250px] sm:w-[40%] overflow-hidden'><Image src={'/img/projects/simenSays.png'} alt='demo-image' width={400} height={250} className='' /> </Link>
@@ -93,9 +93,9 @@ export default function page() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
-        <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Temperature Convertor</h2>
-        <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , JavaScript</p>
+      <div className="bg-gradient-to-l from-blue-50 to-slate-50 dark:from-blue-900/60 dark:to-blue-950/65 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[97%] max-w-[900px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+        <h2 className="w-fit mx-auto sm:my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Temperature Convertor</h2>
+        <p className='text-[10px] xs:text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , JavaScript</p>
 
         <div className="flex flex-col sm:flex-row sm:gap-4 items-center">
           <Link href={'https://abhis12321.github.io/Temp_Converter/'} target='blank' className='mx-auto rounded shadow-[0_0_3px_black] dark:shadow-[0_0_5px_white] my-4 max-h-[250px] sm:w-[40%] overflow-hidden'><Image src={'/img/projects/temperatureConverter.png'} alt='demo-image' width={400} height={250} className='' /> </Link>
@@ -109,9 +109,9 @@ export default function page() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
-        <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Task Manager (ToDo-List)</h2>
-        <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> ReactJs , CSS , JavaScript</p>
+      <div className="bg-gradient-to-l from-blue-50 to-slate-50 dark:from-blue-900/60 dark:to-blue-950/65 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[97%] max-w-[900px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+        <h2 className="w-fit mx-auto sm:my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Task Manager (ToDo-List)</h2>
+        <p className='text-[10px] xs:text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> ReactJs , CSS , JavaScript</p>
 
         <div className="flex flex-col sm:flex-row sm:gap-4 items-center">
           <Link href={'https://abhis12321.github.io/To-Do-List-or-Task-Manager/`'} target='blank' className='mx-auto rounded shadow-[0_0_3px_black] dark:shadow-[0_0_5px_white] my-4 max-h-[250px] sm:w-[40%] overflow-hidden'><Image src={'/img/projects/taskManager.png'} alt='demo-image' width={400} height={250} className='' /> </Link>
@@ -125,9 +125,9 @@ export default function page() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
-        <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Audio Player Web App</h2>
-        <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , React.js , Next.js & Tailwind</p>
+      <div className="bg-gradient-to-l from-blue-50 to-slate-50 dark:from-blue-900/60 dark:to-blue-950/65 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[97%] max-w-[900px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+        <h2 className="w-fit mx-auto sm:my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Audio Player Web App</h2>
+        <p className='text-[10px] xs:text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , React.js , Next.js & Tailwind</p>
 
         <div className="flex flex-col sm:flex-row sm:gap-4 items-center">
           <Link href={'https://singwithme.vercel.app/'} target='blank' className='mx-auto rounded shadow-[0_0_3px_black] dark:shadow-[0_0_5px_white] my-4 max-h-[250px] sm:w-[40%] overflow-hidden'><Image src={'/img/projects/singWithMe.png'} alt='demo-image' width={400} height={250} className='' /> </Link>
@@ -141,9 +141,9 @@ export default function page() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
-        <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Text-Utilities-App</h2>
-        <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> ReactJs , CSS , Routes</p>
+      <div className="bg-gradient-to-l from-blue-50 to-slate-50 dark:from-blue-900/60 dark:to-blue-950/65 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[97%] max-w-[900px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+        <h2 className="w-fit mx-auto sm:my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Text-Utilities-App</h2>
+        <p className='text-[10px] xs:text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> ReactJs , CSS , Routes</p>
 
         <div className="flex flex-col sm:flex-row sm:gap-4 items-center">
           <Link href={'/projects'} target='blank' className='mx-auto rounded shadow-[0_0_3px_black] dark:shadow-[0_0_5px_white] my-4 max-h-[250px] sm:w-[40%] overflow-hidden'><Image src={'/img/projects/textUtils.png'} alt='demo-image' width={400} height={250} className='' /> </Link>
@@ -157,9 +157,9 @@ export default function page() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
-        <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Tic-Tac-Toe</h2>
-        <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> ReactJs , CSS , Routes</p>
+      <div className="bg-gradient-to-l from-blue-50 to-slate-50 dark:from-blue-900/60 dark:to-blue-950/65 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[97%] max-w-[900px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+        <h2 className="w-fit mx-auto sm:my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Tic-Tac-Toe</h2>
+        <p className='text-[10px] xs:text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> ReactJs , CSS , Routes</p>
 
         <div className="flex flex-col sm:flex-row sm:gap-4 items-center">
           <Link href={'/projects'} target='blank' className='mx-auto rounded shadow-[0_0_3px_black] dark:shadow-[0_0_5px_white] my-4 max-h-[250px] sm:w-[40%] overflow-hidden'><Image src={'/img/projects/ticTacToe.png'} alt='demo-image' width={400} height={250} className='' /> </Link>
@@ -174,9 +174,9 @@ export default function page() {
       </div>
 
 
-      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
-        <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Real-time LeaderBoard Management</h2>
-        <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> ReactJs , CSS , JavaScript & Tailwind</p>
+      <div className="bg-gradient-to-l from-blue-50 to-slate-50 dark:from-blue-900/60 dark:to-blue-950/65 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[97%] max-w-[900px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+        <h2 className="w-fit mx-auto sm:my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Real-time LeaderBoard Management</h2>
+        <p className='text-[10px] xs:text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> ReactJs , CSS , JavaScript & Tailwind</p>
 
         <div className="flex flex-col sm:flex-row sm:gap-4 items-center">
           <Link href={'https://abhis12321.github.io/Real-time-Leaderboard-Management/'} target='blank' className='mx-auto rounded shadow-[0_0_3px_black] dark:shadow-[0_0_5px_white] my-4 max-h-[250px] sm:w-[40%] overflow-hidden'><Image src={'/img/projects/leaderBoard.png'} alt='demo-image' width={400} height={250} className='' /> </Link>
@@ -191,9 +191,9 @@ export default function page() {
       </div>
 
 
-      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
-        <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">News-Hunt</h2>
-        <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> ReactJs , CSS , Routes</p>
+      <div className="bg-gradient-to-l from-blue-50 to-slate-50 dark:from-blue-900/60 dark:to-blue-950/65 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[97%] max-w-[900px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+        <h2 className="w-fit mx-auto sm:my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">News-Hunt</h2>
+        <p className='text-[10px] xs:text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> ReactJs , CSS , Routes</p>
 
         <div className="flex flex-col sm:flex-row sm:gap-4 items-center">
           <Link href={'/projects'} target='blank' className='mx-auto rounded shadow-[0_0_3px_black] dark:shadow-[0_0_5px_white] my-4 max-h-[250px] sm:w-[40%] overflow-hidden'><Image src={'/img/projects/pending.png'} alt='demo-image' width={400} height={250} className='' /> </Link>
@@ -207,9 +207,9 @@ export default function page() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-blue-50 to-slate-50 dark:from-slate-950 dark:via-sky-950 dark:to-slate-900 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[95%] md:w-[80%] max-w-[900px] my-[20px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
-        <h2 className="w-fit mx-auto my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Weather-App</h2>
-        <p className='text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , JavaScript</p>
+      <div className="bg-gradient-to-l from-blue-50 to-slate-50 dark:from-blue-900/60 dark:to-blue-950/65 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[97%] max-w-[900px] mx-auto p-[10px] sm:p-[20px] min-h-[180px] text-center rounded-lg ">
+        <h2 className="w-fit mx-auto sm:my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Weather-App</h2>
+        <p className='text-[10px] xs:text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> HTML , CSS , JavaScript</p>
 
         <div className="flex flex-col sm:flex-row sm:gap-4 items-center">
           <Link href={'https://abhis12321.github.io/weather-app/'} target='blank' className='mx-auto rounded shadow-[0_0_3px_black] dark:shadow-[0_0_5px_white] my-4 max-h-[250px] sm:w-[40%] overflow-hidden'><Image src={'/img/projects/weather.png'} alt='demo-image' width={400} height={250} className='' /> </Link>
