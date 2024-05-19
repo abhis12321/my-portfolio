@@ -5,11 +5,11 @@ import SpecialTextShadow from './SpecialTextShadow'
 export default function Skills() {
   return (
     <div className="flex flex-col flex-wrap items-center justify-center bg-blue-950/5 py-6">
+      <div className="w-[98%] max-w-[800px] mx-auto bg-gradient-to-b from-slate-200 to-slate-200 dark:from-blue-950 dark:via-cyan-950 dark:to-slate-900 shadow-[0_0_5px_black] dark:shadow-[0_0_5px_white] py-4 my-3 md:my-4 rounded-xl text-gray-400 text-7xl xs:text-8xl sm:text-[9rem] relative">
       <div className="w-full drop-shadow-[3px_3px_1px_red] flex flex-col items-center justify-center">
         <SpecialTextShadow content={"Skills"} />
       </div>
 
-      <div className="w-[98%] max-w-[800px] mx-auto bg-gradient-to-b from-slate-200 to-slate-200 dark:from-slate-900/90 dark:via-cyan-950 dark:to-slate-900 shadow-[0_0_5px_black] dark:shadow-[0_0_5px_white] py-4 my-3 md:my-4 rounded-xl text-gray-400 text-7xl xs:text-8xl sm:text-[9rem] relative">
         <div className="bgblue-900/20 flex flex-wrap items-center justify-center gap-3 xs:gap-5 sm:gap-8 px-4 py-6 rounded-xl">
           <div className="h-20 w-20 p-3 rounded-full ring-2 ring-white dark:ring-blue-900 flex items-center justify-center"><Image src={'/img/svgs/c.svg'} alt='c-lang' width={125} height={150} className='w-full h-full drop-shadow-[0_0_1px_black]' /></div>
           <div className="h-20 w-20 p-3 rounded-full ring-2 ring-white dark:ring-blue-900 flex items-center justify-center"><Image src={'/img/svgs/java.svg'} alt='java' width={85} height={150} className='h-full w-full relative left-2 dark:drop-shadow-[0_0_3px_black]' /></div>

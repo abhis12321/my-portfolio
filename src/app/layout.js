@@ -2,7 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import NavBar from './_components/NavBar'
 import Footer from './_components/Footer'
-import GotoTopButton from './_components/GotoTopButton'
+import GotoTopButton from './_components/ScrollTopButton'
 
 const inter = Inter({ subsets: ['latin'] })
 

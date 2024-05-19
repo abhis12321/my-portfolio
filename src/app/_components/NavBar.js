@@ -13,7 +13,7 @@ export default function NavBar() {
   }
 
   return (
-    <div className="fixed z-50 w-full bg-white dark:bg-gradient-to-r dark:from-indigo-950 dark:to-blue-950 textwhite font-semibold flex items-center justify-between h-[4rem] px-4 xs:px-5 md:pl-7 md:pr-6 overflow-hidden italic shadow-[1px_1px_2px_gray] dark:shadow-[1px_1px_2px_black]">
+    <div className="fixed z-50 w-full rounded-xl bg-white dark:bg-gradient-to-r dark:from-indigo-950 dark:to-blue-950 textwhite font-semibold flex items-center justify-between h-[4rem] px-4 xs:px-5 md:pl-7 md:pr-6 overflow-hidden italic shadow-[1px_1px_2px_gray] dark:shadow-[1px_1px_2px_black]">
       <div className="">
         <h2 className="font-bold text-3xl text-center rounded-md text-transparent bg-clip-text bg-gradient-to-l from-pink-500 to-orange-500 w-fit leading-[4rem] overflow-hidden drop-shadow-[1px_1px_1px_black]"><span className="font-extrabold">@</span>bhishek singh</h2>
       </div>
