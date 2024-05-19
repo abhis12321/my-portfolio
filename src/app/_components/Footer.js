@@ -2,49 +2,62 @@ import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from 'next/link';
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer() {
   return (
     <div className="flex flex-col bg-black border-t-2 border-gray-900 opacity-85 text-gray-400">
       <div className='px-3 xs:px-8 flex flex-col md:flex-row items-center justify-around flex-1'>
         <div className="md:w-[40%] w-full flex flex-col items-center">
-          <div className="py-2 w-full">
+          <div className="py-2 w-full flex flex-col items-center justify-center">
             <h2 className="mx-auto py-2 text-center text-4xl rounded-md drop-shadow-[3px_3px_1px_white] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-700 to-violet-700 w-fit"><span className=' font-extrabold'>@</span>bhishek singh</h2>
-            <p className="text-center text-yellow-500 text-sm font-semibold">abhisheksingh2359328@gmail.com</p>
+            {/* <Link href={"mailto:abhisheksingh2359328@gmail.com"} className="text-center text-yellow-500 text-sm font-semibold">abhisheksingh2359328@gmail.com</Link> */}
           </div>
           <div className="py-2 md:py-4 flex justify-around items-center bg-slate50 rounded-lg self-center sm:self-auto w-[267px]">
-            <Link
+            
+          <Link
               target="_blank"
               href={`https://github.com/abhis12321`}
-              className=""
+              className="hover:scale-110 duration-500"
             >
               <FontAwesomeIcon
                 icon={faGithub}
-                size="3x"
-                className=" text-gray-400 hover:text-gray-300 hover:scale-110 text-4xl md:text-5xl"
+                size="2x"
+                className="p-[4px] text-[1.8rem] rounded-md dark:bg-blue-950 text-white ring-[1px] ring-gray-500"
               />
             </Link>
             <Link
               target="_blank"
               href={`https://www.linkedin.com/in/abhishek-singh-b82427256/`}
-              className=""
+              className="hover:scale-110 duration-500"
             >
               <FontAwesomeIcon
                 icon={faLinkedin}
                 size="3x"
-                className="text-blue-700 hover:text-blue-600 hover:scale-110 text-4xl md:text-5xl"
+                className="text-blue-700 hover:text-blue-600 text-[2.6rem]"
               />
             </Link>
             <Link
               target="_blank"
               href={`https://www.instagram.com/____abhis____/`}
-              className=""
+              className="hover:scale-110 duration-500"
             >
               <FontAwesomeIcon
                 icon={faInstagram}
                 size="3x"
-                className="text-rose-800 hover:text-rose-700 hover:scale-110 text-4xl md:text-5xl"
+                className="text-rose-800/95 hover:text-rose-700 text-[2.71rem]"
               />
+            </Link>
+            <Link
+              target="_blank"
+              href={`mailto:abhisheksingh2359328@gmail.com`}
+              className="hover:scale-110 duration-500"
+            >
+            <FontAwesomeIcon
+              icon={faSquareEnvelope}
+              size="3x"
+              className="text-blue-800 text-[2.6rem]"
+            />
             </Link>
           </div>
 

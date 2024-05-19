@@ -1,16 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faC, faN } from "@fortawesome/free-solid-svg-icons";
+import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
-  faBootstrap,
-  faCss3Alt,
   faGithub,
-  faHtml5,
   faInstagram,
-  faJava,
   faLinkedin,
-  faReact,
-  faSquareJs,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import AnimatedPhoto from "./_components/Animated_avatar";
@@ -22,7 +16,6 @@ import Academics from "./_components/Academics";
 import GithubCintributionGraph from "./_components/GithubContributionGraph";
 import CodingProfile from "./_components/CodingProfile";
 import Contact from "./_components/Contact";
-import Image from "next/image";
 
 export default function page() {
   return (
@@ -41,48 +34,53 @@ export default function page() {
           </h3>
           <Writer />
 
-          <div className="py-3 my-3 flex justify-evenly items-center w-[98vw] max-w-[300px] xs:max-w-[321px] md:max-w-[351px] sm:bg-slate-950/10 dark:bg-slate-900/70 rounded-lg self-center sm:self-auto">
-
+          <div className="py-[11px] my-3 flex justify-evenly items-center w-[98vw] max-w-[300px] xs:max-w-[321px] md:max-w-[351px] bg-slate-950/10 dark:bg-slate-900/70 rounded-lg self-center sm:self-auto">
+            
             <Link
-              target="_blank"
-              href={`https://github.com/abhis12321`}
-              className="hover:scale-110 duration-500"
-            >
+                target="_blank"
+                href={`https://github.com/abhis12321`}
+                className="hover:scale-110 duration-500"
+              >
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  size="2x"
+                  className="p-[4px] text-[1.8rem] rounded-md dark:bg-blue-950 text-white ring-[1px] ring-gray-500 md:scale-125"
+                />
+              </Link>
+              <Link
+                target="_blank"
+                href={`https://www.linkedin.com/in/abhishek-singh-b82427256/`}
+                className="hover:scale-110 duration-500"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  size="3x"
+                  className="text-blue-700 hover:text-blue-600 text-[2.6rem] md:scale-125"
+                />
+              </Link>
+              <Link
+                target="_blank"
+                href={`https://www.instagram.com/____abhis____/`}
+                className="hover:scale-110 duration-500"
+              >
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  size="3x"
+                  className="text-rose-800/95 hover:text-rose-700 text-[2.71rem] md:scale-125"
+                />
+              </Link>
+              <Link
+                target="_blank"
+                href={`mailto:abhisheksingh2359328@gmail.com`}
+                className="hover:scale-110 duration-500"
+              >
               <FontAwesomeIcon
-                icon={faGithub}
-                size="2x"
-                className="py-[5px] px-[6px] text-[1.8rem] md:text-[2.4rem] rounded-md bg-slate-700 dark:bg-blue-800/40 text-white"
-              />
-            </Link>
-            <Link
-              target="_blank"
-              href={`https://www.linkedin.com/in/abhishek-singh-b82427256/`}
-              className="hover:scale-110 duration-500"
-            >
-              <FontAwesomeIcon
-                icon={faLinkedin}
+                icon={faSquareEnvelope}
                 size="3x"
-                className="text-blue-700 hover:text-blue-600 text-[2.6rem] md:text-[3.2rem]"
+                className="text-blue-800 text-[2.6rem] md:scale-125"
               />
-            </Link>
-            <Link
-              target="_blank"
-              href={`https://www.instagram.com/____abhis____/`}
-              className="hover:scale-110 duration-100"
-            >
-              <FontAwesomeIcon
-                icon={faInstagram}
-                size="3x"
-                className="text-rose-800 hover:text-rose-700 text-[2.6rem] md:text-[3.3rem]"
-              />
-            </Link>
-            {/* <Link
-              target="_blank"
-              href={`mailto:abhisheksingh2359328@gmail.com`}
-              className="hover:scale-110 duration-500 opacity-80 hover:opacity-100"
-            >
-            <Image src={'/img/svgs/gmail.svg'} alt="gmail" height={55} width={47} className="w-12"/>
-            </Link> */}
+              </Link>
+  
           </div>
         </div>
         <AnimatedPhoto />
