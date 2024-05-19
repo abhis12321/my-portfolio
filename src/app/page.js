@@ -34,7 +34,7 @@ export default function page() {
           </h3>
           <Writer />
 
-          <div className="py-[11px] my-3 flex justify-evenly items-center w-[98vw] max-w-[300px] xs:max-w-[321px] md:max-w-[351px] bg-slate-950/10 dark:bg-slate-900/70 rounded-lg self-center sm:self-auto">
+          <div className="py-3 md:py-[14px] my-3 flex justify-evenly items-center w-[98vw] max-w-[300px] xs:max-w-[321px] md:max-w-[351px] bg-slate-950/10 dark:bg-slate-900/70 rounded-lg self-center sm:self-auto">
             
             <Link
                 target="_blank"
@@ -44,7 +44,7 @@ export default function page() {
                 <FontAwesomeIcon
                   icon={faGithub}
                   size="2x"
-                  className="p-[4px] text-[1.8rem] rounded-md dark:bg-blue-950 text-white ring-[1px] ring-gray-500 md:scale-125"
+                  className="p-[4px] text-[1.8rem] rounded-md bg-blue-950 text-white ring-[1px] ring-gray-500 md:scale-125"
                 />
               </Link>
               <Link

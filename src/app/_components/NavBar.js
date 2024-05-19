@@ -13,12 +13,12 @@ export default function NavBar() {
   }
 
   return (
-    <div className="fixed z-50 w-full rounded-xl bg-white dark:bg-gradient-to-r dark:from-indigo-950 dark:to-blue-950 textwhite font-semibold flex items-center justify-between h-[4rem] px-4 xs:px-5 md:pl-7 md:pr-6 overflow-hidden italic shadow-[1px_1px_2px_gray] dark:shadow-[1px_1px_2px_black]">
+    <div className="fixed z-50 w-full rounded-b-xl bg-white dark:bg-gradient-to-r dark:from-indigo-950 dark:to-blue-950 textwhite font-semibold flex items-center justify-between h-[4rem] px-4 xs:px-5 md:pl-7 md:pr-6 overflow-hidden italic shadow-[1px_1px_2px_gray] dark:shadow-[1px_1px_2px_black]">
       <div className="">
         <h2 className="font-bold text-3xl text-center rounded-md text-transparent bg-clip-text bg-gradient-to-l from-pink-500 to-orange-500 w-fit leading-[4rem] overflow-hidden drop-shadow-[1px_1px_1px_black]"><span className="font-extrabold">@</span>bhishek singh</h2>
       </div>
 
-      <div className="right-navbar fixed md:static top-0 right-0 hidden md:flex lg:gap-2 bg-gradient-to-r md:[background:none] from-blue-100 to-gray-50  dark:from-indigo-950 dark:to-blue-950 shadow-[-1px_-1px_1px_gray] md:shadow-none min-h-[100vh] md:min-h-fit z-10 items-center min-w-[170px] dark:font-normal font-medium overflow-hidden h-full">
+      <div className="right-navbar fixed md:static top-0 right-0 hidden md:flex lg:gap-2 bg-gradient-to-r md:[background:none] from-blue-50 to-white  dark:from-indigo-950 dark:to-blue-950 shadow-[-1px_-1px_1px_gray] md:shadow-none min-h-[100vh] md:min-h-fit z-10 items-center min-w-[170px] dark:font-normal font-medium overflow-hidden h-full">
         <div className="mx-auto w-fit text-4xl py-2 hover:text-red-800 text-center cursor-pointer" onClick={handleRight}>
           <FontAwesomeIcon icon={faXmark} size='sm' className="hidden cutX" />
         </div>
