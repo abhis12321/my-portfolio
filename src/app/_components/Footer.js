@@ -18,14 +18,14 @@ export default function Footer() {
         </div>
         <div className="flex flex-col md:flex-row justify-center md:justify-around md:gap-4 items-center w-full md:w-[60%]">
           <div className="flex md:flex-col md:gap-2 justify-between items-start">
-            <Link href={'/'} className='py-1 px-3 rounded-md hover:text-gray-50 text-center'>home</Link>
-            <Link href={'/#about'} className='py-1 px-3 rounded-md hover:text-gray-50 text-center'>about</Link>
-            <Link href={'/#learnings'} className='py-1 px-3 rounded-md hover:text-gray-50 text-center'>learnings</Link>
+            <Link href={'/'} className='py-1 px-3 rounded-md hover:text-gray-400 text-gray-50 text-center'>home</Link>
+            <Link href={'/#about'} className='py-1 px-3 rounded-md hover:text-gray-400 text-gray-50 text-center'>about</Link>
+            <Link href={'/#learnings'} className='py-1 px-3 rounded-md hover:text-gray-400 text-gray-50 text-center'>learnings</Link>
           </div>
           <div className="flex md:flex-col md:gap-2 justify-between items-start">
-            <Link href={'/projects'} className='py-1 px-3 rounded-md hover:text-gray-50 text-center'>projects</Link>
-            <Link href={'/#contact'} className='py-1 px-3 rounded-md hover:text-gray-50 text-center'>contact</Link>
-            <Link href={'https://student-login-app-nextjs.onrender.com/'} className='py-1 px-3 rounded-md hover:text-gray-50 text-center' target='_blank'>chat with me</Link>
+            <Link href={'/projects'} className='py-1 px-3 rounded-md hover:text-gray-400 text-gray-50 text-center'>projects</Link>
+            <Link href={'/#contact'} className='py-1 px-3 rounded-md hover:text-gray-400 text-gray-50 text-center'>contact</Link>
+            <Link href={'https://student-login-app-nextjs.onrender.com/'} className='py-1 px-3 rounded-md hover:text-gray-400 text-gray-50 text-center' target='_blank'>chat with me</Link>
           </div>
         </div>
       </div>

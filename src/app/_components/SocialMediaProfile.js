@@ -37,7 +37,7 @@ export default function SocialMediaProfile() {
         <FontAwesomeIcon
           icon={faInstagram}
           size="3x"
-          className="text-rose-800/95 hover:text-rose-700 text-[2.71rem]"
+          className="text-rose-800/95 hover:text-rose-700 text-[2.76rem]"
         />
       </Link>
       <Link
@@ -48,7 +48,7 @@ export default function SocialMediaProfile() {
       <FontAwesomeIcon
         icon={faSquareEnvelope}
         size="3x"
-        className="text-blue-800 text-[2.6rem]"
+        className="text-blue-800 text-[2.65rem]"
       />
       </Link>      
     </>

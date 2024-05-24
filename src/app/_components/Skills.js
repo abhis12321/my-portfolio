@@ -7,7 +7,7 @@ import { faLaptopCode } from '@fortawesome/free-solid-svg-icons'
 export default function Skills() {
   return (
     <div className="flex flex-col flex-wrap items-center justify-center bg-blue-950/5 py-6">
-      <div className="max-w-[1150px] w-[98%] mx-auto bg-gradient-to-b from-blue-50/50 to-blue-100/20 dark:from-blue-950 dark:via-cyan-950 dark:to-slate-900 shadow-[0_0_5px_black] dark:shadow-[0_0_5px_white] py-4 my-3 md:my-4 rounded-xl text-gray-400 text-7xl xs:text-8xl sm:text-[9rem] relative">
+      <div className="max-w-[1150px] w-[98%] mx-auto bg-gradient-to-b from-blue-50/50 to-blue-100/20 dark:from-cyan-950 dark:to-blue-950 shadow-[0_0_5px_black] dark:shadow-[0_0_5px_white] py-4 my-3 md:my-4 rounded-xl text-gray-400 text-7xl xs:text-8xl sm:text-[9rem] relative">
         <div className="w-full dropshadow-[3px_3px_1px_red] flex gap-3 items-center justify-center text-5xl py-3 font-bold font-serif text-slate-600 dark:text-blue-50">
           <FontAwesomeIcon size='xs' icon={faLaptopCode} className='text-5xl' /> Skills
           {/* <SpecialTextShadow> <FontAwesomeIcon size='xs' icon={faLaptopCode} className='text-5xl'/> Skills</SpecialTextShadow> */}

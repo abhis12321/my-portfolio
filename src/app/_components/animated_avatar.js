@@ -3,9 +3,9 @@ import React from "react";
 
 export default function AnimationReact() {
   return (
-      <div className="w-fit">
+      <div className="w-fit self-center">
         <div className="relative group cursor-pointer w-fit">
-          <div className="relative z-10 w-20 h-20 md:w-52 md:h-52 xl:w-64 xl:h-64 rounded-full bg-transparent cursor-pointer [perspective:1000px] [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] duration-[1200ms]">
+          <div className="relative z-10 w-40 h-40 md:w-48 md:h-48 xl:w-64 xl:h-64 rounded-full bg-transparent cursor-pointer [perspective:1000px] [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] duration-[1200ms]">
               <Image
                 width={200}
                 height={200}
