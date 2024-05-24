@@ -1,8 +1,6 @@
 import React from 'react';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from 'next/link';
-import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons';
+import SocialMediaProfile from './SocialMediaProfile';
 
 export default function Footer() {
   return (
@@ -14,51 +12,7 @@ export default function Footer() {
             {/* <Link href={"mailto:abhisheksingh2359328@gmail.com"} className="text-center text-yellow-500 text-sm font-semibold">abhisheksingh2359328@gmail.com</Link> */}
           </div>
           <div className="py-2 md:py-4 flex justify-around items-center bg-slate50 rounded-lg self-center sm:self-auto w-[267px]">
-            
-          <Link
-              target="_blank"
-              href={`https://github.com/abhis12321`}
-              className="hover:scale-110 duration-500"
-            >
-              <FontAwesomeIcon
-                icon={faGithub}
-                size="2x"
-                className="p-[4px] text-[1.8rem] rounded-md dark:bg-blue-950 text-white ring-[1px] ring-gray-500"
-              />
-            </Link>
-            <Link
-              target="_blank"
-              href={`https://www.linkedin.com/in/abhishek-singh-b82427256/`}
-              className="hover:scale-110 duration-500"
-            >
-              <FontAwesomeIcon
-                icon={faLinkedin}
-                size="3x"
-                className="text-blue-700 hover:text-blue-600 text-[2.6rem]"
-              />
-            </Link>
-            <Link
-              target="_blank"
-              href={`https://www.instagram.com/____abhis____/`}
-              className="hover:scale-110 duration-500"
-            >
-              <FontAwesomeIcon
-                icon={faInstagram}
-                size="3x"
-                className="text-rose-800/95 hover:text-rose-700 text-[2.71rem]"
-              />
-            </Link>
-            <Link
-              target="_blank"
-              href={`mailto:abhisheksingh2359328@gmail.com`}
-              className="hover:scale-110 duration-500"
-            >
-            <FontAwesomeIcon
-              icon={faSquareEnvelope}
-              size="3x"
-              className="text-blue-800 text-[2.6rem]"
-            />
-            </Link>
+           <SocialMediaProfile />
           </div>
 
         </div>

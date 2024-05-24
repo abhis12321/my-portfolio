@@ -16,6 +16,7 @@ import Academics from "./_components/Academics";
 import GithubCintributionGraph from "./_components/GithubContributionGraph";
 import CodingProfile from "./_components/CodingProfile";
 import Contact from "./_components/Contact";
+import SocialMediaProfile from "./_components/SocialMediaProfile";
 
 export default function page() {
   return (
@@ -34,53 +35,8 @@ export default function page() {
           </h3>
           <Writer />
 
-          <div className="py-3 md:py-[14px] my-3 flex justify-evenly items-center w-[98vw] max-w-[300px] xs:max-w-[321px] md:max-w-[351px] bg-slate-950/10 dark:bg-slate-900/70 rounded-lg self-center sm:self-auto">
-            
-            <Link
-                target="_blank"
-                href={`https://github.com/abhis12321`}
-                className="hover:scale-110 duration-500"
-              >
-                <FontAwesomeIcon
-                  icon={faGithub}
-                  size="2x"
-                  className="p-[4px] text-[1.8rem] rounded-md bg-blue-950 text-white ring-[1px] ring-gray-500 md:scale-125"
-                />
-              </Link>
-              <Link
-                target="_blank"
-                href={`https://www.linkedin.com/in/abhishek-singh-b82427256/`}
-                className="hover:scale-110 duration-500"
-              >
-                <FontAwesomeIcon
-                  icon={faLinkedin}
-                  size="3x"
-                  className="text-blue-700 hover:text-blue-600 text-[2.6rem] md:scale-125"
-                />
-              </Link>
-              <Link
-                target="_blank"
-                href={`https://www.instagram.com/____abhis____/`}
-                className="hover:scale-110 duration-500"
-              >
-                <FontAwesomeIcon
-                  icon={faInstagram}
-                  size="3x"
-                  className="text-rose-800/95 hover:text-rose-700 text-[2.71rem] md:scale-125"
-                />
-              </Link>
-              <Link
-                target="_blank"
-                href={`mailto:abhisheksingh2359328@gmail.com`}
-                className="hover:scale-110 duration-500"
-              >
-              <FontAwesomeIcon
-                icon={faSquareEnvelope}
-                size="3x"
-                className="text-blue-800 text-[2.6rem] md:scale-125"
-              />
-              </Link>
-  
+          <div className="py-2 md:py-[14px] my-3 flex justify-evenly items-center w-[98vw] max-w-[300px] xs:max-w-[321px] md:max-w-[351px] bg-slate-950/10 dark:bg-slate-900/70 rounded-lg self-center sm:self-auto">
+            <SocialMediaProfile />
           </div>
         </div>
         <AnimatedPhoto />

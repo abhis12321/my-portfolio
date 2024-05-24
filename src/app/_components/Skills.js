@@ -1,14 +1,17 @@
 import Image from 'next/image'
 import React from 'react'
 import SpecialTextShadow from './SpecialTextShadow'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons'
 
 export default function Skills() {
   return (
     <div className="flex flex-col flex-wrap items-center justify-center bg-blue-950/5 py-6">
-      <div className="w-[98%] max-w-[800px] mx-auto bg-gradient-to-b from-blue-50/50 to-blue-100/20 dark:from-blue-950 dark:via-cyan-950 dark:to-slate-900 shadow-[0_0_5px_black] dark:shadow-[0_0_5px_white] py-4 my-3 md:my-4 rounded-xl text-gray-400 text-7xl xs:text-8xl sm:text-[9rem] relative">
-      <div className="w-full drop-shadow-[3px_3px_1px_red] flex flex-col items-center justify-center">
-        <SpecialTextShadow content={"Skills"} />
-      </div>
+      <div className="max-w-[1150px] w-[98%] mx-auto bg-gradient-to-b from-blue-50/50 to-blue-100/20 dark:from-blue-950 dark:via-cyan-950 dark:to-slate-900 shadow-[0_0_5px_black] dark:shadow-[0_0_5px_white] py-4 my-3 md:my-4 rounded-xl text-gray-400 text-7xl xs:text-8xl sm:text-[9rem] relative">
+        <div className="w-full dropshadow-[3px_3px_1px_red] flex gap-3 items-center justify-center text-5xl py-3 font-bold font-serif text-slate-600 dark:text-blue-50">
+          <FontAwesomeIcon size='xs' icon={faLaptopCode} className='text-5xl' /> Skills
+          {/* <SpecialTextShadow> <FontAwesomeIcon size='xs' icon={faLaptopCode} className='text-5xl'/> Skills</SpecialTextShadow> */}
+        </div>
 
         <div className="flex flex-wrap items-center justify-center gap-3 xs:gap-5 sm:gap-8 px-4 py-6 rounded-xl">
           <div className="h-20 w-20 p-3 rounded-full ring-2 dark:ring-cyan-700 ring-cyan-700/50 flex items-center justify-center"><Image src={'/img/svgs/c.svg'} alt='c-lang' width={125} height={150} className='w-full h-full drop-shadow-[0_0_1px_black]' /></div>
