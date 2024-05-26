@@ -23,7 +23,7 @@ export default function About() {
               🚀I am a passionate web developer and currently pursuing my Bachelor&apos;s degree in Computer Science & Engineering from Dr. Ambedkar Institute of Technology for Divyanjan UP (India). I have a Deep Interest in Exploring the Fascinating World Of Technology and Its Applications.
               I am Constantly Driven to Enhance my Skills and Knowledge in Programming, Algorithms, and Software development.
             </div>
-            <Link href={'https://drive.google.com/file/d/1ny7NctCt_xz7HkWGCfEEL5fYEl_RrkH-/view?usp=drive_link'} target='_blank' className="bg-indigo-900 hover:bg-violet-200 font-semibold font-mono ring-1 ring-gray-200 hover:ring-violet-800 hover:text-violet-900 px-5 py-[7px] mt-1 sm:mt-4 rounded-lg w-fit text-white text-xs sm:text-sm">Resume &gt;</Link>
+            <Link href={'https://drive.google.com/file/d/1ny7NctCt_xz7HkWGCfEEL5fYEl_RrkH-/view?usp=drive_link'} target='_blank' className="bg-indigo-900 hover:bg-violet-200 font-semibold font-mono ring-1 ring-gray-200 hover:ring-violet-800 hover:text-violet-900 px-5 py-[7px] mt-1 sm:mt-4 rounded-lg w-fit text-white text-xs sm:text-sm"><span className="font-serif">Resume</span> &gt;</Link>
           </div>
         </div>
       </div>

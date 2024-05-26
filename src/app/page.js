@@ -36,8 +36,9 @@ export default function page() {
           </h3>
           <Writer />
 
-          <Link href={'#about'} className="px-5 py-3 rounded-3xl font-bold text-sm text-white bg-violet-950 hover:bg-blue-700 shadow-[1px_1px_5px_blue] hover:shadow-[1px_1px_8px_blue] dark:shadow-[1px_1px_5px_white] dark:hover:shadow-[1px_1px_8px_white] max-h-12 overflow-hidden">About me <FontAwesomeIcon icon={faCircleDown}  size="1x" className="sm"/></Link>
-          <div className="py-2 md:py-[14px] my-3 flex justify-between md:justify-evenly items-center w-[98vw] max-w-[250px] md:max-w-[351px] md:bg-slate-950/10 dark:md:bg-slate-900/70 rounded-lg">
+          <Link href={'#about'} className="px-5 py-3 my-2 rounded-3xl font-bold text-sm text-white bg-violet-950 hover:bg-violet-700 shadow-[1px_1px_5px_blue] hover:shadow-[1px_1px_8px_blue] dark:shadow-[1px_1px_5px_white] dark:hover:shadow-[1px_1px_8px_white] max-h-12 overflow-hidden">About me <FontAwesomeIcon icon={faCircleDown}  size="1x" className="sm"/></Link>
+          
+          <div className="py-2 md:py-[13px] my-3 flex justify-between md:justify-evenly items-center w-[98vw] max-w-[250px] md:max-w-[351px] md:bg-slate-950/10 dark:md:bg-slate-900/70 rounded-lg">
             <SocialMediaProfile />
           </div>
         </div>
