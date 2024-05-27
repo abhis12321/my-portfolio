@@ -4,9 +4,9 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div className="flex flex-col items-center justify-evenly pt-10 pb-6 bg-blue-950/5" id="about">
-      <div className="rounded-2xl max-w-[1150px] w-[98%] mx-auto flex flex-col items-center justify-evenly bg-gradient-to-b from-white to-slate-50 dark:from-cyan-950 dark:to-blue-950/90 darkto-slate-900 shadow-[0_0_5px_gray] dark:shadow-[0_0_5px_white] py-3 sm:pb-6 px-1 xs:px-6">
-        <div className="w-full pb-2 md:pb-4">
+    <div className="flex flex-col items-center justify-evenly pt-10 pb-6 bg-transparent" id="about">
+      <div className="rounded-2xl max-w-[1150px] w-[98%] mx-auto flex flex-col items-center justify-evenly bg-gradient-to-b from-white to-slate-50 dark:from-cyan-950 dark:to-blue-950/90 shadow-[0_0_5px_gray] dark:shadow-[0_0_5px_white] py-3 sm:pb-6 px-1 xs:px-6">
+        <div className="w-full pt-3 pb-6">
           <h1 className="mx-auto text-center text-[2.2rem] sm:text-[2.6rem] rounded-md drop-shadow-[3px_3px_1px_black] dark:drop-shadow-[3px_3px_1px_white] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-800 w-[95%] xs:w-fit">
             About Me
           </h1>

@@ -14,9 +14,12 @@ import {
 export default function CodingJourney() {
   return (
     <section className="gap-6 bg-slate-950/5 dark:bg-gray-950 text-white py-5 flex items-center justify-center flex-col" id="learnings">
-      <h1 className="mx-auto text-center py-4 sm:px-8 my-2 text-4xl md:text-5xl rounded-md drop-shadow-[3px_5px_1px_black] dark:drop-shadow-[3px_5px_1px_white] font-extrabold md:font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-800 w-[95%] xs:w-fit">
-        Coding Journey
-      </h1>
+
+      <div className="drop-shadow-[3px_4px_1px_black] dark:drop-shadow-[2px_1px_1px_white] py-3 w-full">
+        <h1 className="mx-auto text-center py-4 sm:px-8 my-2 text-4xl md:text-5xl rounded-md drop-shadow-[1px_1px_1px_white] font-extrabold md:font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-800 w-[95%] xs:w-fit">
+          Coding Journey
+        </h1>
+      </div>
 
       <div className="min-h-[40vh] flex gap-3 w-[98%] max-w-[850px] rounded-lg shadow-[0_0_5px_black] dark:shadow-[0_0_10px_white] hover:shadow-[0_0_10px_red] bg-slate-200 dark:bg-gray-900 p-1 px-4 ">
         <div className="flex flex-col justify-center items-center py-4 xs:w-[30%] ">
