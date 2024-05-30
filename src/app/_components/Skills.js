@@ -6,11 +6,11 @@ import { faLaptopCode } from '@fortawesome/free-solid-svg-icons'
 export default function Skills() {
   return (
     <div className="flex flex-col flex-wrap items-center justify-center bg-transparent py-6">
-    <div className="drop-shadow-[3px_4px_1px_black] dark:drop-shadow-[2px_1px_1px_white] py3 w-full">
+    {/* <div className="drop-shadow-[3px_4px_1px_black] dark:drop-shadow-[2px_1px_1px_white] py3 w-full">
       <div className="w-fit mx-auto drop-shadow-[1px_1px_1px_white] flex gap-3 items-center justify-center text-[2.8rem] font-extrabold pt-8 pb-10 max-h-16 overflow-hidden bg-gradient-to-r from-pink-600 via-pink-600 to-violet-600 bg-clip-text text-transparent">
         <FontAwesomeIcon size='xs' icon={faLaptopCode} className='text-[2.8rem] text-pink-600' /> Skills
       </div>
-    </div>
+    </div> */}
 
       <div className="max-w-[1150px] w-[98%] mx-auto bg-gradient-to-b from-white to-gray-50 dark:from-cyan-950 dark:to-blue-950 shadow-[0_0_5px_gray] dark:shadow-[0_0_5px_white] mt-3 md:mt-4 rounded-xl text-gray-400 text-7xl xs:text-8xl sm:text-[9rem] relative">
         <div className="flex flex-wrap justify-center gap-2 md:gap-3 rounded-xl py-2 px-1 xs:px-2 xs:py-3 sm:px-3 md:p-4">
