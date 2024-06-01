@@ -12,7 +12,7 @@ export default function Skills() {
       </div>
     </div> */}
 
-      <div className="max-w-[1150px] w-[98%] mx-auto bg-gradient-to-b from-white to-gray-50 dark:from-cyan-950 dark:to-blue-950 shadow-[0_0_5px_gray] dark:shadow-[0_0_5px_white] mt-3 md:mt-4 rounded-xl text-gray-400 text-7xl xs:text-8xl sm:text-[9rem] relative">
+      <div className="max-w-[1150px] w-[98%] mx-auto bg-gradient-to-r md:bg-gradient-to-b from-white to-gray-50 dark:from-cyan-950 dark:to-blue-950 shadow-[0_0_5px_gray] dark:shadow-[0_0_5px_white] mt-3 md:mt-4 rounded-xl text-gray-400 text-7xl xs:text-8xl sm:text-[9rem] relative">
         <div className="flex flex-wrap justify-center gap-2 md:gap-3 rounded-xl py-2 px-1 xs:px-2 xs:py-3 sm:px-3 md:p-4">
           <div className="flex flex-wrap items-center justify-center gap-3 px-2 sm:px-3 py-5 rounded-lg bg-blue-600/10 dark:bg-blue-100/10 shadow-[0_0_1px_white] outline-none w-[98%] md:w-[49%] max-w-[600px]">
             <div className="drop-shadow-[3px_3px_1px_black] pb-5 w-full font-extrabold">

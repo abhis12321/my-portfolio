@@ -26,9 +26,9 @@ export default function Contact() {
   }, []);
   return (
     <div className='flex justify-center items-center py-7 lg:py-10 bg-transparent' id='contact'>
-      <form className="flex flex-wrap items-center justify-around gap-[3px] text-white bg-gradient-to-b from-white to-gray-50 dark:from-cyan-950 dark:to-blue-950/90 w-[98%] max-w-[1150px] p-1 xs:p-3 sm:p-2 rounded-lg shadow-[0_0_5px_gray] dark:shadow-[0_0_5px_white]" onSubmit={handleSubmit} data-aos="fade-up">
+      <form className="flex flex-wrap items-center justify-around gap-[3px] text-white bg-gradient-to-tr from-white to-gray-50 dark:from-cyan-950 dark:via-cyan-950/90 dark:to-blue-950/90 w-[98%] max-w-[1150px] p-1 xs:p-3 sm:p-2 rounded-lg shadow-[0_0_5px_gray] dark:shadow-[0_0_5px_white]" onSubmit={handleSubmit} data-aos="fade-up">
         <div className="drop-shadow-[2px_4px_1px_black] dark:drop-shadow-[1px_1px_1px_white] py-3 w-full">
-          <h1 className='mx-auto text-center text-3xl xs:text-4xl rounded-md drop-shadow-[1px_1px_1px_white] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-800 w-[95%] xs:w-fit pb-1 xs:pb-2'><span className='text-pink-600 font-extrabold'><FontAwesomeIcon size='md' icon={faHeadset} className='font-extrabold' /> </span>Get In Touch</h1>
+          <h1 className='mx-auto text-center text-3xl xs:text-4xl rounded-md drop-shadow-[1px_1px_1px_white] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-800 w-fit pb-1 xs:pb-2'><span className='text-pink-600 font-extrabold'><FontAwesomeIcon size='md' icon={faHeadset} className='font-extrabold' /> </span>Get In Touch</h1>
         </div>
 
         <div className="w-[38%] hidden sm:block">
