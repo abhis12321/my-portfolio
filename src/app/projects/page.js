@@ -13,16 +13,16 @@ export default function page() {
       </div>
 
       <div className="bg-gradient-to-l from-blue-50 to-slate-50 dark:from-cyan-950 dark:to-blue-950 shadow-[0_0_7px_black] dark:shadow-[0_0_7px_white] hover:shadow-[0_0_8px_red] text-white w-[97%] max-w-[900px] mx-auto p-[10px] sm:px-[20px] min-h-[180px] text-center rounded-lg ">
-        <h2 className="w-fit mx-auto sm:my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Student&rsquo;Media</h2>
+        <h2 className="w-fit mx-auto sm:my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">Coder&rsquo;Media</h2>
         <p className='text-[10px] xs:text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> ReactJs , Next.js , CSS , MongoDb , Socket.io , Nodemailer & Tailwind</p>
 
         <div className="flex flex-col sm:flex-row sm:gap-4 items-center">
-          <Link href={'https://student-login-app-nextjs.onrender.com/'} target='blank' className='mx-auto rounded shadow-[0_0_3px_black] dark:shadow-[0_0_5px_white] my-4 max-h-[250px] sm:w-[40%] overflow-hidden' ><Image src={'/img/projects/studentOmedia2.png'} alt='demo-image' width={400} height={250} className='' /></Link>
+          <Link href={'https://coder-media.onrender.com/'} target='blank' className='mx-auto rounded shadow-[0_0_3px_black] dark:shadow-[0_0_5px_white] my-4 max-h-[250px] sm:w-[40%] overflow-hidden' ><Image src={'/img/projects/studentOmedia2.png'} alt='demo-image' width={400} height={250} className='' /></Link>
           <div className="flex flex-col sm:w-[55%]">
             <div className="font-mono text-[14px] mb-3 sm:my-3 text-gray-800 dark:text-gray-400 max-w-[450px]">It&apos;s a full stack next.js project built using React.js, Next.js, CSS, Tailwind, MongoDb, JavaScript and Nodemailer. It is a web app for students to login and connect with the other students and chat with them to ask any queries. This web app platform can be use for chatting purpose too, for any personal chat or group chat. It&apos;s a MERN Stack project.</div>
             <div className="flex fle-col xm:flex-row gap-2 items-center justify-around">
               <Link className='px-3 text-[14px] sm:text-[.9rem] sm:px-4 py-2 rounded bg-slate-950/70 dark:bg-slate-950 hover:shadow-[0_0_3px_white] hover:bg-black duration-1000 font-semibold' target='_blank' href={`https://github.com/abhis12321/student-login-app-nextjs`}>Github Link..</Link>
-              <Link className='px-3 text-[14px] sm:text-[.9rem] sm:px-4 py-2 rounded bg-slate-950/70 dark:bg-slate-950 hover:shadow-[0_0_3px_white] hover:bg-black duration-1000 font-semibold' target='_blank' href={`https://student-login-app-nextjs.onrender.com/`}>Take a Look...</Link>
+              <Link className='px-3 text-[14px] sm:text-[.9rem] sm:px-4 py-2 rounded bg-slate-950/70 dark:bg-slate-950 hover:shadow-[0_0_3px_white] hover:bg-black duration-1000 font-semibold' target='_blank' href={`https://coder-media.onrender.com/`}>Take a Look...</Link>
             </div>
           </div>
         </div>
