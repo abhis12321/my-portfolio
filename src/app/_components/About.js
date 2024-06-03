@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div className="flex flex-col items-center justify-evenly pt-10 pb-6 bg-transparent" id="about">
+    <div className="flex flex-col items-center justify-evenly pt-10 pb-3 bg-transparent" id="about">
       <div className="rounded-2xl max-w-[1150px] w-[98%] mx-auto flex flex-col items-center justify-evenly bg-gradient-to-tr from-white to-slate-50 dark:from-cyan-950 dark:via-cyan-950/90 dark:to-blue-950/90 shadow-[0_0_5px_gray] dark:shadow-[0_0_5px_white] py-3 sm:pb-6 px-1 xs:px-6">
         <div className="w-full pt-3 pb-6 drop-shadow-[3px_3px_1px_black] dark:drop-shadow-[1px_1px_1px_white]">
           <h1 className="mx-auto text-center text-[2.2rem] sm:text-[2.6rem] rounded-md drop-shadow-[1px_1px_1px_white] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-800 w-fit">
@@ -13,7 +13,7 @@ export default function About() {
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-around gap-4 md:gap-8 lg:gap-12 lg:px-8">
-          <Image src={"/img/others/me2.jpg"} alt='me.png' height={400} width={320} className='h-[300px] md:h-[350px] w-fit rounded-md shadow-[0_0_4px_black]' />
+          <Image src={"/img/others/me2.jpg"} alt='me.png' height={400} width={320} className='h-[300px] md:h-[350px] w-fit rounded-md shadow-[0_0_4px_black] relative md:top-[-1rem]' />
           <div className="h-fit sm:min-h-[250px] w-[90%] xs:w-[80%] md:w-[50%] flex flex-col gap-3 items-start justify-between">
             <div className="flex flex-col gap-2 items-start">
               <div className="font-bold text-xl sm:text-2xl text-gray-700 dark:text-white">Hi👋, I&apos;m Abhishek</div>
