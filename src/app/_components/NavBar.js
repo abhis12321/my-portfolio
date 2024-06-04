@@ -23,19 +23,19 @@ export default function NavBar() {
           <FontAwesomeIcon icon={faXmark} size='sm' className="hidden cutX" />
         </div>
 
-        <div className="w-full md:w-fit flex items-center justify-center"><Link href="/" className="w-full font-semibold overflow-hidden flex items-center justify-center py-4 md:py-[10px] md:px-5 md:rounded-lg hover:bg-blue-950/20 dark:hover:bg-gray-400/30 md:hover:ring-2 ring-slate-950 dark:ring-gray-300" >
+        <div className="w-full md:w-fit flex items-center justify-center"><Link href="/" className="w-full font-semibold overflow-hidden flex items-center justify-center py-4 md:py-[7px] md:px-5 md:rounded-xl hover:bg-blue-600/20 dark:hover:bg-gray-400/30 md:hover:ring-2 ring-slate-950 dark:ring-gray-300" >
           Home
         </Link></div>
 
-        <div className="w-full md:w-fit flex items-center justify-center"><Link href="/projects" className="w-full font-semibold overflow-hidden flex items-center justify-center py-4 md:py-[10px] md:px-5 md:rounded-lg hover:bg-blue-950/20 dark:hover:bg-gray-400/30 md:hover:ring-2 ring-slate-950 dark:ring-gray-300" >
+        <div className="w-full md:w-fit flex items-center justify-center"><Link href="/projects" className="w-full font-semibold overflow-hidden flex items-center justify-center py-4 md:py-[7px] md:px-5 md:rounded-xl hover:bg-blue-600/20 dark:hover:bg-gray-400/30 md:hover:ring-2 ring-slate-950 dark:ring-gray-300" >
           Projects
         </Link></div>
 
-        <div className="w-full md:w-fit flex items-center justify-center"><Link href="/#about" className="w-full font-semibold overflow-hidden flex items-center justify-center py-4 md:py-[10px] md:px-5 md:rounded-lg hover:bg-blue-950/20 dark:hover:bg-gray-400/30 md:hover:ring-2 ring-slate-950 dark:ring-gray-300" >
+        <div className="w-full md:w-fit flex items-center justify-center"><Link href="/#about" className="w-full font-semibold overflow-hidden flex items-center justify-center py-4 md:py-[7px] md:px-5 md:rounded-xl hover:bg-blue-600/20 dark:hover:bg-gray-400/30 md:hover:ring-2 ring-slate-950 dark:ring-gray-300" >
           About
         </Link></div>
 
-        <div className="w-full md:w-fit flex items-center justify-center"><Link href="/#contact" className="w-full font-semibold overflow-hidden flex items-center justify-center py-4 md:py-[10px] md:px-5 md:rounded-lg hover:bg-blue-950/20 dark:hover:bg-gray-400/30 md:hover:ring-2 ring-slate-950 dark:ring-gray-300" >
+        <div className="w-full md:w-fit flex items-center justify-center"><Link href="/#contact" className="w-full font-semibold overflow-hidden flex items-center justify-center py-4 md:py-[7px] md:px-5 md:rounded-xl hover:bg-blue-600/20 dark:hover:bg-gray-400/30 md:hover:ring-2 ring-slate-950 dark:ring-gray-300" >
           Contact
         </Link></div>
 

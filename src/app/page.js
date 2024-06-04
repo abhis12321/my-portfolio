@@ -16,7 +16,7 @@ import { faCircleDown } from "@fortawesome/free-regular-svg-icons";
 export default function page() {
   return (
     <div className="">
-      <div className="flex flex-col sm:flex-row pl-[4vw] xs:px-[7vw] py-2 items-start sm:items-center justify-evenly md:justify-center bg-white dark:bg-gray-950 text-gray-600 dark:text-blue-50 border-b-2 border-gray-300 dark:border-gray-800 "
+      <div className="flex flex-col sm:flex-row pl-[4vw] xs:px-[7vw] py-2 items-start sm:items-center justify-evenly md:justify-center bg-white dark:bg-black text-gray-600 dark:text-blue-50 border-b-2 border-gray-300 dark:border-gray-800 "
         style={{ minHeight: "calc(100vh - 4rem)" }} >
         <div className="flex flex-col gap-2 w-full sm:flex-1 items-start">
           <h3 className="text-justify text-[1.3rem] lg:text-[1.7rem] font-bold">
@@ -30,7 +30,7 @@ export default function page() {
           </h3>
           <Writer />
 
-          <Link href={'#about'} className="px-5 py-3 my-2 rounded-3xl font-bold text-sm text-white bg-violet-950 hover:bg-violet-700 shadow-[1px_1px_5px_blue] hover:shadow-[1px_1px_8px_blue] dark:shadow-[1px_1px_5px_white] dark:hover:shadow-[1px_1px_8px_white] max-h-12 overflow-hidden">About me <FontAwesomeIcon icon={faCircleDown}  size="1x" className="sm"/></Link>
+          <Link href={'#about'} className="px-5 py-3 my-2 rounded-3xl font-bold text-sm text-white bg-violet-950 hover:bg-violet-900 shadow-[1px_1px_5px_blue] hover:shadow-[1px_1px_8px_blue] dark:shadow-[1px_1px_5px_white] dark:hover:shadow-[1px_1px_8px_white] max-h-12 overflow-hidden">About me <FontAwesomeIcon icon={faCircleDown}  size="1x" className="sm"/></Link>
           
           <div className="py-2 md:py-[13px] my-3 flex justify-between md:justify-evenly items-center w-[98vw] max-w-[250px] md:max-w-[350px] md:bg-slate-950/5 dark:md:bg-blue-600/15 md:shadow-[-1px_1px_1px_gray] rounded-lg">
             <SocialMediaProfile />
