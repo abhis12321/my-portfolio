@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCommentDots, faEnvelope, faHeadset, faSignature, faUser } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
+import axios from 'axios';
 
 export default function Contact() {
   const [email, setEmail] = useState('');
@@ -13,8 +14,12 @@ export default function Contact() {
 
   const handleSubmit = e => {
     e.preventDefault();
-    console.log(email, name, message);
-
+    // console.log(email, name, message);
+    axios.post('/api' , {
+      name,
+      email,
+      message
+    })
 
     setEmail('');
     setName('');
