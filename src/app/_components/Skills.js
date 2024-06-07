@@ -13,11 +13,11 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="flex flex-wrap items-center justify-evenly dark:md:justify-between gap-2 md:gap-3 rounded-xl py-2 px-1 xs:px-2 xs:py-3 sm:px-3 md:p-4 dark:px-2 dark:sm:px-6">
+        <div className="flex flex-wrap items-center justify-evenly dark:md:justify-between gap-2 md:gap-3 rounded-xl py-2 px-1 xs:px-2 xs:py-3 sm:px-3 md:px-4 dark:px-2 dark:sm:px-6 dark:lg:px-0">
 
-          <div className="flex flex-col items-center justify-center w-[98%] md:w-[49%] max-w-[500px] py-2 mx-auto">
+          <div className="flex flex-col items-center justify-center w-[98%] md:w-[49%] max-w-[500px] py-2">
             <div className="drop-shadow-[3px_3px_1px_black] dark:drop-shadow-[2px_2px_1px_white] pb-5 w-full font-extrabold">
-              <div className="py-1 mx-auto text-center drop-shadow-[1px_1px_1px_black] flex gap-3 items-center justify-center text-[1.8rem] max-h-16 overflow-hidden font-extrabold text-blue-100 w-fit">
+              <div className="py-1 mx-auto text-center drop-shadow-[1px_1px_1px_black] flex gap-3 items-center justify-center text-[1.8rem] max-h-16 overflow-hidden font-extrabold text-green-600 dark:text-yellow-400 w-fit">
                 Development Skills
               </div>
             </div>
@@ -35,9 +35,9 @@ export default function Skills() {
             </div>
           </div>
 
-          <div className="flex flex-col items-center justify-center w-[98%] md:w-[49%] max-w-[500px] py-2 mx-auto">
+          <div className="flex flex-col items-center justify-center w-[98%] md:w-[49%] max-w-[500px] py-2">
             <div className="drop-shadow-[3px_3px_1px_black] dark:drop-shadow-[2px_2px_1px_white] pb-5 w-full font-extrabold">
-              <div className="py-1 mx-auto text-center drop-shadow-[1px_1px_1px_black] flex gap-3 items-center justify-center text-[1.8rem] max-h-16 overflow-hidden font-extrabold text-blue-100 w-fit">
+              <div className="py-1 mx-auto text-center drop-shadow-[1px_1px_1px_black] flex gap-3 items-center justify-center text-[1.8rem] max-h-16 overflow-hidden font-extrabold text-green-600 dark:text-yellow-400 w-fit">
                 Other Skills
               </div>
             </div>

@@ -8,7 +8,7 @@ export default function CodingProfile() {
   return (
     <div className='bg-transparent py-7'>
       <div className="w-full">
-        <div className="flex flex-wrap gap-[6px] xs:gap-4 items-center justify-center dark:md:justify-between bg-white dark:bg-transparent p-[6px] xs:p-4 pb-3 xs:pb-8 dark:px-2 dark:sm:px-6 rounded-lg max-w-[1150px] w-[98%] mx-auto shadow-[0_0_5px_gray] dark:shadow-none">
+        <div className="flex flex-wrap gap-[6px] xs:gap-4 items-center justify-center dark:md:justify-between bg-white dark:bg-transparent p-[6px] xs:p-4 pb-3 xs:pb-8 dark:px-2 dark:sm:px-6 dark:lg:px-0 rounded-lg max-w-[1150px] w-[98%] mx-auto shadow-[0_0_5px_gray] dark:shadow-none">
           <div className="drop-shadow-[2px_3px_1px_black] dark:drop-shadow-[1px_1px_1px_white] w-full">
             <h1 className='mx-auto text-center text-4xl rounded-md drop-shadow-[1px_1px_1px_white] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-700 w-fit p-2'>Coding Profile</h1>
           </div>
