@@ -36,11 +36,11 @@ export default function Contact() {
           <h1 className='mx-auto text-center text-3xl xs:text-4xl rounded-md drop-shadow-[1px_1px_1px_white] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-800 w-fit pb-1 xs:pb-2 dark:xs:pb-4'><span className='text-pink-600 font-extrabold'><FontAwesomeIcon size='md' icon={faHeadset} className='font-extrabold' /> </span>Get In Touch</h1>
         </div>
 
-        <div className="w-[38%] dark:md:w-[50%] hidden sm:block">
-          <Image src={'/img/others/contact.png'} alt='contact' height={350} width={330} className='opacity-90 dark:opacity-80'/>
+        <div className="w-[38%] hidden md:block">
+          <Image src={'/img/others/contact.png'} alt='contact' height={350} width={330} className='opacity-90 dark:opacity-80 w-full max-w-[400px]'/>
         </div>
 
-        <div className="flex flex-col gap-[2px] xs:gap-1 w-[100%] sm:w-[60%] sm:max-w-[500px]">
+        <div className="flex flex-col gap-[2px] xs:gap-1 w-[100%] sm:w-[60%] max-w-[500px] mx-auto">
           <div className="group w-full flex relative">
             <FontAwesomeIcon size='1x' className='absolute top-[16px] left-5 text-xl group-focus-within:text-violet-700 text-slate-950 dark:text-gray-100' icon={faUser} />
             <input type="text" value={name} onChange={e => setName(e.target.value)} placeholder='Enter your name' className='w-full bg-blue-600/15 dark:bg-blue-900/10 text-cyan-950 dark:text-gray-400 placeholder:text-gray-500 dark:placeholder:text-gray-600 font-medium focus:text-sky-700 focus:bg-blue-700/30 dark:focus:bg-slate-950/65 focus:border-violet-700 dark:focus:border-violet-900 border-2 border-gray-500 p-3 px-14 outline-none rounded-md' required />

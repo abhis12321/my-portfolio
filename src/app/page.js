@@ -32,7 +32,7 @@ export default function page() {
 
           <Link href={'#about'} className="px-5 py-3 my-2 rounded-3xl font-bold text-sm text-white bg-violet-950 hover:bg-violet-900 shadow-[1px_1px_5px_blue] hover:shadow-[1px_1px_8px_blue] dark:shadow-[1px_1px_5px_white] dark:hover:shadow-[1px_1px_8px_white] max-h-12 overflow-hidden">About me <FontAwesomeIcon icon={faCircleDown}  size="1x" className="sm"/></Link>
           
-          <div className="py-2 md:py-[13px] my-3 flex justify-between md:justify-evenly items-center w-[98vw] max-w-[250px] md:max-w-[350px] md:bg-slate-950/5 dark:md:bg-blue-600/15 md:shadow-[-1px_1px_1px_gray] rounded-lg">
+          <div className="py-2 md:py-[13px] my-3 flex justify-between md:justify-evenly items-center w-[98vw] max-w-[250px] md:max-w-[350px] md:bg-slate-950/5 dark:md:bg-blue-600/15 md:shadow-[0px_1px_2px_gray] rounded-lg">
             <SocialMediaProfile />
           </div>
         </div>
