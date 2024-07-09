@@ -17,7 +17,7 @@ export default function GotoTopButton() {
     useEffect(() => {
         window?.addEventListener('scroll' , handleScrollButton);
         return () => {
-            window?.removeEventListeneeer('scroll' , handleScrollButton);
+            window?.removeEventListener('scroll' , handleScrollButton);
         }
     } , [])
   return (
