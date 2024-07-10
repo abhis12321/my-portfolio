@@ -12,6 +12,7 @@ import CodingProfile from "./_components/CodingProfile";
 import Contact from "./_components/Contact";
 import SocialMediaProfile from "./_components/SocialMediaProfile";
 import { faCircleDown } from "@fortawesome/free-regular-svg-icons";
+import PWC_Badges from "./_components/PWC_Badges";
 
 export default function page() {
   return (
@@ -42,6 +43,7 @@ export default function page() {
       {/* <CodingJourney /> */}
       {/* <Academics /> */}
       <Skills />
+      <PWC_Badges />
       <CodingProfile />
       <GithubCintributionGraph />
       <Contact />
