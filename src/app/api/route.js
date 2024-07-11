@@ -4,9 +4,9 @@ import nodemailer from "nodemailer";
 export async function POST(req , res) {
     try {
         let data = await req.json();
-        console.log(data);
-        sendVerificationEmail(data.name , data.email , data.message);
-        return NextResponse.json({success:true , message:"data recieved in backend API"});
+        let response = await sendVerificationEmail(data.name , data.email , data.message);
+        // console.log(response);
+        return NextResponse.json({success:true , message:"Your message is received and I will contact you if required!"});
     } catch(error) {
         return NextResponse.json({success:false , message:error.message});
     }
@@ -29,8 +29,9 @@ async function sendVerificationEmail(name , email, message) {
     subject: "Contacting through Portfolio",
     text: `Name : ${name}`,
     html: `<p>Hi,</p>
+            <p>from: <b>${email}</b> </p>
            <p>${message}</p>`,
   };
 
-  return transporter.sendMail(mailOptions);
+  return await transporter.sendMail(mailOptions);
 }

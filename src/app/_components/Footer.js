@@ -30,7 +30,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="text-yellow-200 text-center text-sm py-3 font-extrabold drop-shadow-[0_0_1px_red] italic font-serif"><span className="font-extrabold">&copy;</span>2024 Abhishek Singh! A personal portfolio!!</div>
+      <div className="text-gray-500 text-center text-sm py-3 font-extrabold font-serif"><span className="font-extrabold">&copy;</span>2024 Abhishek Singh! A personal portfolio!!</div>
     </div>
   )
 }

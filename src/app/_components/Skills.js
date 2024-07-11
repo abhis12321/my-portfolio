@@ -17,7 +17,7 @@ export default function Skills() {
 
           <div className="flex flex-col items-center justify-center w-[98%] md:w-[49%] max-w-[500px] py-2">
             <div className="drop-shadow-[3px_3px_1px_black] dark:drop-shadow-[2px_2px_1px_white] pb-5 w-full font-extrabold">
-              <div className="py-1 mx-auto text-center drop-shadow-[1px_1px_1px_black] flex gap-3 items-center justify-center text-[1.8rem] max-h-16 overflow-hidden font-extrabold text-green-600 dark:text-yellow-400 w-fit">
+              <div className="py-1 mx-auto text-center drop-shadow-[1px_1px_1px_black] flex gap-3 items-center justify-center text-[1.8rem] max-h-16 overflow-hidden font-extrabold text-teal-500 dark:text-yellow-400 w-fit">
                 Development Skills
               </div>
             </div>
@@ -37,7 +37,7 @@ export default function Skills() {
 
           <div className="flex flex-col items-center justify-center w-[98%] md:w-[49%] max-w-[500px] py-2">
             <div className="drop-shadow-[3px_3px_1px_black] dark:drop-shadow-[2px_2px_1px_white] pb-5 w-full font-extrabold">
-              <div className="py-1 mx-auto text-center drop-shadow-[1px_1px_1px_black] flex gap-3 items-center justify-center text-[1.8rem] max-h-16 overflow-hidden font-extrabold text-green-600 dark:text-yellow-400 w-fit">
+              <div className="py-1 mx-auto text-center drop-shadow-[1px_1px_1px_black] flex gap-3 items-center justify-center text-[1.8rem] max-h-16 overflow-hidden font-extrabold text-teal-500 dark:text-yellow-400 w-fit">
                 Other Skills
               </div>
             </div>
