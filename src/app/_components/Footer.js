@@ -7,11 +7,11 @@ export default function Footer() {
     <div className="flex flex-col bg-black border-t-2 border-gray-900 opacity-85 text-gray-400">
       <div className='px-3 xs:px-8 flex flex-col md:flex-row items-center justify-around flex-1'>
         <div className="md:w-[40%] w-full flex flex-col items-center">
-          <div className="py-2 w-full flex flex-col items-center justify-center">
+          <div className="py-1 w-full flex flex-col items-center justify-center">
             <h2 className="mx-auto py-2 text-center text-4xl rounded-md drop-shadow-[3px_3px_1px_white] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-700 to-violet-700 w-fit"><span className=' font-extrabold'>@</span>bhishek singh</h2>
-            {/* <Link href={"mailto:abhisheksingh2359328@gmail.com"} className="text-center text-yellow-500 text-sm font-semibold">abhisheksingh2359328@gmail.com</Link> */}
+            <p className="text-center text-sm text-yellow-400 font-semibold drop-shadow-[0_0_7px_white] font-serif italic">follow me</p>
           </div>
-          <div className="py-2 md:py-4 flex justify-around items-center bg-slate50 rounded-lg self-center sm:self-auto w-[267px]">
+          <div className="py-2 md:py-2 flex justify-around items-center bg-slate50 rounded-lg self-center sm:self-auto w-[267px]">
            <SocialMediaProfile />
           </div>
 
@@ -30,7 +30,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="text-orange-300 text-center text-sm py-3 font-bold"><span className="font-extrabold">&copy;</span>2024 Abhishek Singh! A personal portfolio!!</div>
+      <div className="text-yellow-200 text-center text-sm py-3 font-extrabold drop-shadow-[0_0_1px_red] italic font-serif"><span className="font-extrabold">&copy;</span>2024 Abhishek Singh! A personal portfolio!!</div>
     </div>
   )
 }
