@@ -12,7 +12,7 @@ export default function GithubCintributionGraph() {
       {/* <Image src={'https://github-readme-activity-graph.vercel.app/graph?username=abhis12321&bg_color=0f2d3d&color=1cadfb&line=1cadfb&point=1cadfb&area=true&hide_border=true'} alt='github-contribution' height={200} width={800} dangerouslyAllowSVG={true} /> */}
       <img
               src="https://github-readme-activity-graph.vercel.app/graph?username=abhis12321&bg_color=0f2d3d&color=1cadfb&line=1cadfb&point=1cadfb&area=true&hide_border=true"
-              alt="Khushbu's GitHub Activity Graph"
+              alt="Abhishek's GitHub Activity Graph"
               className='rounded w-[98%] max-w-[1150px] ring-1 ring-sky-500 scale-y-150 sm:scale-y-125 md:scale-100'
             />
     </div>
