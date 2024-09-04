@@ -25,9 +25,9 @@ export default function Contact() {
 
   return (
     <div className='flex justify-center items-center py-7 lg:py-10 bg-transparent' id='contact'>
-      <form className="flex flex-wrap items-center justify-evenly dark:justify-between gap-[3px] text-white bg-white dark:bg-transparent w-[98%] max-w-[1150px] pb-3 sm:pb-6 p-1 xs:p-3 sm:p-2 rounded-lg shadow-[0_0_5px_gray] dark:shadow-none" onSubmit={handleSubmit}>
-        <div className="drop-shadow-[2px_4px_1px_black] dark:drop-shadow-[1px_1px_1px_white] py-[14px] w-full dark:px-2 dark:sm:px-6">
-          <h1 className='mx-auto text-center text-3xl xs:text-4xl rounded-md drop-shadow-[1px_1px_1px_white] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-800 w-fit pb-1 xs:pb-2 dark:xs:pb-4'><span className='text-pink-600 font-extrabold'><FontAwesomeIcon size='md' icon={faHeadset} className='font-extrabold' /> </span>Get In Touch</h1>
+      <form className="flex flex-wrap items-center justify-evenly gap-[3px] text-white bg-white dark:bg-white/10 w-[98%] max-w-[1150px] pb-3 sm:pb-6 p-1 xs:p-3 sm:p-2 rounded-lg shadow-[0_0_5px_gray]" onSubmit={handleSubmit}>
+        <div className="drop-shadow-[2px_4px_1px_black] dark:drop-shadow-[1px_1px_1px_white] py-[14px] w-full">
+          <h1 className='mx-auto text-center text-3xl xs:text-4xl rounded-md drop-shadow-[1px_1px_1px_white] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-800 w-fit pb-1 xs:pb-2'><span className='text-pink-600 font-extrabold'><FontAwesomeIcon size='md' icon={faHeadset} className='font-extrabold' /> </span>Get In Touch</h1>
         </div>
 
         <div className="w-[38%] hidden md:block">
