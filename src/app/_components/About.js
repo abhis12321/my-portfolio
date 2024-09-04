@@ -5,7 +5,7 @@ import React from 'react'
 export default function About() {
   return (
     <div className="flex flex-col items-center justify-around pt-10 pb-3 bg-transparent" id="about">
-      <div className="rounded-2xl max-w-[1150px] w-[98%] mx-auto flex flex-col items-center justify-between bg-white dark:bg-transparent shadow-[0_0_5px_gray] dark:shadow-none py-6 md:py-10 lg:py-12 px-1 xs:px-6 dark:px-2 dark:sm:px-6 dark:lg:px-0">
+      <div className="group rounded-2xl max-w-[1150px] w-[98%] mx-auto flex flex-col items-center justify-between bg-white dark:bg-transparent shadow-[0_0_5px_gray] dark:shadow-none py-6 md:py-10 lg:py-12 px-1 xs:px-6 dark:px-2 dark:sm:px-6 dark:lg:px-0">
         <div className="md:hidden w-full pb-5 drop-shadow-[3px_3px_1px_black] dark:drop-shadow-[1px_1px_1px_white]">
           <h1 className="mx-auto text-center text-[2.2rem] sm:text-[2.6rem] rounded-md drop-shadow-[1px_1px_1px_white] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-800 w-fit max-h-16 overflow-hidden">
             About Me
@@ -13,7 +13,9 @@ export default function About() {
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-around md:justify-between dark:px-0 gap-4 md:gap-8 lg:gap-12 lg:px-8">
-          <Image src={"/img/others/me2.jpg"} alt='me.png' height={390} width={320} className='h-[300px] md:h-[400px] lg:h-[440px] w-fit rounded-md shadow-[0_0_4px_black]' />
+          <div className="group-hover:animated-border-rotate px-[3px]">
+            <Image src={"/img/others/me2.jpg"} alt='me.png' height={390} width={320} className='h-[300px] md:h-[400px] lg:h-[440px] w-fit rounded-md shadow-[0_0_4px_black] sticky z-20' />
+          </div>
           <div className="min-h-[280px] md:min-h-[350px] w-[90%] xs:w-[80%] md:w-[60%] flex flex-col gap-1 lg:gap-4 items-center md:items-start justify-between">
             <div className="hidden md:block pb-6 drop-shadow-[3px_3px_1px_black] dark:drop-shadow-[1px_1px_1px_white]">
               <h1 className="mx-auto text-[2.2rem] sm:text-[2.6rem] rounded-md drop-shadow-[1px_1px_1px_white] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-800 w-fit">
