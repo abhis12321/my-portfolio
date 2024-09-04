@@ -1,10 +1,6 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
-import NavBar from './_components/NavBar'
-import Footer from './_components/Footer'
-import GotoTopButton from './_components/ScrollTopButton'
+import './globals.css';
+import BodyContainer from './_components/BodyContainer';
 
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'First Next App',
@@ -14,14 +10,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" >
-      <body className='bg-blue-950/5 text-gray-950 dark:bg-gray-950 dark:text-white'>
-          <NavBar />
-          <div className='' style={{minHeight:'calc(100vh - 4rem'}}>
-            {children}
-          </div>
-          <GotoTopButton />
-          <Footer />
-      </body>
+      <BodyContainer>
+        { children }
+      </BodyContainer>
     </html>
   )
 }

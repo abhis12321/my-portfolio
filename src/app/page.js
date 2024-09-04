@@ -17,7 +17,7 @@ import PWC_Badges from "./_components/PWC_Badges";
 export default function page() {
   return (
     <div className="">
-      <div className="flex flex-col sm:flex-row pl-[4vw] xs:px-[7vw] py-2 items-start sm:items-center justify-evenly md:justify-center bg-white dark:bg-black text-gray-600 dark:text-blue-50 border-b-2 border-gray-300 dark:border-gray-800 "
+      <div className="flex flex-col sm:flex-row pl-[4vw] xs:px-[7vw] py-2 items-start sm:items-center justify-evenly md:justify-center bg-white dark:bg-white/10 text-gray-600 dark:text-blue-50 border-b-2 border-gray-300 dark:border-gray-800 "
         style={{ minHeight: "calc(100vh - 4rem)" }} >
         <div className="flex flex-col gap-2 w-full sm:flex-1 items-start">
           <h3 className="text-justify text-[1.3rem] lg:text-[1.7rem] font-bold">

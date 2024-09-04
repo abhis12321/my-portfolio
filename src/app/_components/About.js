@@ -13,8 +13,8 @@ export default function About() {
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-around md:justify-between dark:px-0 gap-4 md:gap-8 lg:gap-12 lg:px-8">
-          <div className="group-hover:animated-border-rotate px-[3px]">
-            <Image src={"/img/others/me2.jpg"} alt='me.png' height={390} width={320} className='h-[300px] md:h-[400px] lg:h-[440px] w-fit rounded-md shadow-[0_0_4px_black] sticky z-20' />
+          <div className="">
+            <Image src={"/img/others/me2.jpg"} alt='me.png' height={390} width={320} className='h-[300px] md:h-[400px] lg:h-[440px] w-fit rounded-md shadow-[0_0_4px_black]' />
           </div>
           <div className="min-h-[280px] md:min-h-[350px] w-[90%] xs:w-[80%] md:w-[60%] flex flex-col gap-1 lg:gap-4 items-center md:items-start justify-between">
             <div className="hidden md:block pb-6 drop-shadow-[3px_3px_1px_black] dark:drop-shadow-[1px_1px_1px_white]">
