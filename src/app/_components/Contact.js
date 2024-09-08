@@ -1,10 +1,10 @@
 "use client"
+import axios from 'axios'
+import Image from 'next/image'
 import React, { useState } from 'react'
-import 'aos/dist/aos.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCommentDots, faEnvelope, faHeadset, faSignature, faUser } from '@fortawesome/free-solid-svg-icons';
-import Image from 'next/image';
-import axios from 'axios';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCommentDots, faEnvelope, faHeadset, faUser } from '@fortawesome/free-solid-svg-icons'
+
 
 export default function Contact() {
   const [email, setEmail] = useState('');

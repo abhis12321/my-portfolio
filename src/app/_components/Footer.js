@@ -11,9 +11,7 @@ export default function Footer() {
             <h2 className="mx-auto py-2 text-center text-4xl rounded-md drop-shadow-[3px_3px_1px_white] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-700 to-violet-700 w-fit"><span className=' font-extrabold'>@</span>bhishek singh</h2>
             <p className="text-center text-sm text-yellow-400 font-semibold drop-shadow-[0_0_7px_white] font-serif italic">follow me</p>
           </div>
-          <div className="py-2 md:py-2 flex justify-around items-center bg-slate50 rounded-lg self-center sm:self-auto w-[267px]">
            <SocialMediaProfile />
-          </div>
 
         </div>
         <div className="flex flex-col md:flex-row justify-center md:justify-around md:gap-4 items-center w-full md:w-[60%]">

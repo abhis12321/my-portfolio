@@ -13,21 +13,23 @@ export default function CodingProfile() {
             <h1 className='mx-auto text-center text-4xl rounded-md drop-shadow-[1px_1px_1px_white] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-violet-700 w-fit p-2'>Coding Profile</h1>
           </div>
 
-          <Link href={'https://www.geeksforgeeks.org/user/abhis12321/'} className="group flex flex-col justify-evenly bg-blue-600/10 dark:bg-white/5 hover:bg-blue-600/15 dark:hover:bg-slate-800 rounded-lg px-6 py-4 w-full max-w-[440px] sm:w-[48%] lg:w-[32%] xs:min-w-[360px] sm:min-w-[289px] lg:min-w-[220px] h-[164px] shadow-[1px_1px_2px_black]">
-            <Image src={'/img/svgs/gfg.svg'} alt='leetcode' height={50} width={50} className='rounded' />
-            <div className="font-bold text-xl text-white drop-shadow-[0_0_2px_black]">GeeksForGeeks</div>
-            <div className='text-blue-500 font-bold group-hover:underline max-h-8 overflow-hidden w-fit' target='_blank'>view profile <FontAwesomeIcon icon={faUpRightFromSquare} size='sm' /></div>
-          </Link>
-          <Link href={'https://leetcode.com/u/abhis12321/'} className="group flex flex-col justify-evenly bg-blue-600/10 dark:bg-white/5 hover:bg-blue-600/15 dark:hover:bg-slate-800 rounded-lg px-6 py-4 w-full max-w-[440px] sm:w-[48%] lg:w-[32%] xs:min-w-[360px] sm:min-w-[289px] lg:min-w-[220px] h-[164px] shadow-[1px_1px_2px_black]">
-            <Image src={'/img/others/leetcode.png'} alt='leetcode' height={50} width={50} className='rounded' />
-            <div className="font-bold text-xl text-white drop-shadow-[0_0_2px_black]">LeetCode</div>
-            <div className='text-blue-500 font-bold group-hover:underline max-h-8 overflow-hidden w-fit' target='_blank'>view profile <FontAwesomeIcon icon={faUpRightFromSquare} size='sm' /></div>
-          </Link>
-          <Link href={'https://www.codechef.com/users/abhis12321'} className="group flex flex-col justify-evenly bg-blue-600/10 dark:bg-white/5 hover:bg-blue-600/15 dark:hover:bg-slate-800 rounded-lg px-6 py-4 w-full max-w-[440px] sm:w-[48%] lg:w-[32%] xs:min-w-[360px] sm:min-w-[289px] lg:min-w-[220px] h-[164px] shadow-[1px_1px_2px_black]">
-            <Image src={'/img/svgs/codechef.svg'} alt='leetcode' height={55} width={55} className='rounded' />
-            <div className="font-bold text-xl text-white drop-shadow-[0_0_2px_black]">CodeChef</div>
-            <div className='text-blue-500 font-bold group-hover:underline max-h-8 overflow-hidden w-fit' target='_blank'>view profile <FontAwesomeIcon icon={faUpRightFromSquare} size='sm' /></div>
-          </Link>
+          <div className="w-full flex flex-wrap gap-2 justify-between items-center">
+            <Link href={'https://www.geeksforgeeks.org/user/abhis12321/'} className="h-[160px] w-full xs:w-[48.5%] md:w-[32.5%] group flex flex-col justify-evenly bg-gray-600/15 hover:bg-blue-600/20 rounded-lg px-4 py-4 shadow-[2px_1px_1px_gray]">
+              <Image src={'/img/svgs/gfg.svg'} alt='leetcode' height={50} width={50} className='rounded' />
+              <div className="font-bold text-xl text-white drop-shadow-[0_0_2px_black]">GeeksForGeeks</div>
+              <div className='text-blue-500 font-bold group-hover:underline w-fit flex items-center justify-center gap-1' target='_blank'>view profile <FontAwesomeIcon icon={faUpRightFromSquare} size='sm' className='max-h-3' /></div>
+            </Link>
+            <Link href={'https://leetcode.com/u/abhis12321/'} className="h-[160px] w-full xs:w-[48.5%] md:w-[32.5%] group flex flex-col justify-evenly bg-gray-600/15 hover:bg-blue-600/20 rounded-lg px-4 py-4 shadow-[2px_1px_1px_gray]">
+              <Image src={'/img/others/leetcode.png'} alt='leetcode' height={50} width={50} className='rounded' />
+              <div className="font-bold text-xl text-white drop-shadow-[0_0_2px_black]">LeetCode</div>
+              <div className='text-blue-500 font-bold group-hover:underline w-fit flex items-center justify-center gap-1' target='_blank'>view profile <FontAwesomeIcon icon={faUpRightFromSquare} size='sm' className='max-h-3' /></div>
+            </Link>
+            <Link href={'https://www.codechef.com/users/abhis12321'} className="h-[160px] w-full xs:w-[48.5%] md:w-[32.5%] group flex flex-col justify-evenly bg-gray-600/15 hover:bg-blue-600/20 rounded-lg px-4 py-4 shadow-[2px_1px_1px_gray]">
+              <Image src={'/img/svgs/codechef.svg'} alt='leetcode' height={55} width={55} className='rounded' />
+              <div className="font-bold text-xl text-white drop-shadow-[0_0_2px_black]">CodeChef</div>
+              <div className='text-blue-500 font-bold group-hover:underline w-fit flex items-center justify-center gap-1' target='_blank'>view profile <FontAwesomeIcon icon={faUpRightFromSquare} size='sm' className='max-h-3' /></div>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

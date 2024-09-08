@@ -1,7 +1,6 @@
 import Image from 'next/image';
-import React from "react";
 
-export default function AnimationReact() {
+export default function Animated_avatar() {
   return (
       <div className="w-fit self-center">
         <div className="relative group cursor-pointer w-fit z-10 bg-inherit">
@@ -11,7 +10,7 @@ export default function AnimationReact() {
                 height={200}
                 src={'/img/others/Ab5.jpg'}
                 alt="@me"
-                className="absolute w-full h-full rounded-full object-fit object-centerdark:shadow-[2px_2px_1px_red] dark:opacity-80 md:[transform:rotateY(180deg)]"
+                className="absolute w-full h-full rounded-full object-fit object-centerdark:shadow-[2px_2px_1px_red] md:[transform:rotateY(180deg)]"
               />
             <div className="absolute bg-white dark:[background:url('/img/others/darkbg.gif')] w-full h-full [backface-visibility:hidden] flex flex-col items-center justify-center gap-4 rounded-full animated-border-rotate after:rounded-full before:rounded-full">
               <Image

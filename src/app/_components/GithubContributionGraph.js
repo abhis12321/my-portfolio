@@ -9,7 +9,6 @@ export default function GithubCintributionGraph() {
             My GitHub Contributions
           </h1>
         </div>
-      {/* <Image src={'https://github-readme-activity-graph.vercel.app/graph?username=abhis12321&bg_color=0f2d3d&color=1cadfb&line=1cadfb&point=1cadfb&area=true&hide_border=true'} alt='github-contribution' height={200} width={800} dangerouslyAllowSVG={true} /> */}
       <img
               src="https://github-readme-activity-graph.vercel.app/graph?username=abhis12321&bg_color=0f2d3d&color=1cadfb&line=1cadfb&point=1cadfb&area=true&hide_border=true"
               alt="Abhishek's GitHub Activity Graph"

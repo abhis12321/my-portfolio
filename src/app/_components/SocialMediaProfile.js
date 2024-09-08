@@ -6,7 +6,7 @@ import React from 'react'
 
 export default function SocialMediaProfile() {
   return (
-    <> 
+    <div className="py-2 md:py-[13px] my-3 flex justify-between md:justify-evenly items-center w-[98vw] max-w-[250px] md:max-w-[350px] md:bg-gray-600/15 md:shadow-[0px_1px_2px_gray] rounded-lg">
     <Link
         target="_blank"
         href={`https://github.com/abhis12321`}
@@ -51,6 +51,6 @@ export default function SocialMediaProfile() {
         className="text-blue-800 text-[2.65rem]"
       />
       </Link>      
-    </>
+    </div>
   )
 }

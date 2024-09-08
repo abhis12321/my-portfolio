@@ -3,7 +3,7 @@ import React from "react";
 import Typewriter from 'typewriter-effect/dist/core';
 
 
-export default function TypingEffect() {
+export default function Animated_typewritter() {
   React.useEffect(() => {
     new Typewriter('#typewriter', {
         strings: ['Front-End Developer', 'Back-End Developer' , 'Full Stack Developer', 'MERN Stack Developer' , 'Problem-Solver'],

@@ -10,7 +10,7 @@ export const projects = [
     {
         title:"E-commerce Web App",
         technology:"HTML , CSS , React.js , Next.js , MongoDB & Tailwind",
-        deployement:"/projects",
+        deployement:'',
         github:"https://github.com/abhis12321/ecommerse-backend",
         image:"/img/projects/pending.png",
         description:"I&apos;m working on a Full Stack Web Application for an Ecommerse platform. It is going to be a MERN Stack Project with all the functionalities for a Ecommerse website. It is currently in building process."
@@ -66,7 +66,7 @@ export const projects = [
     {
         title:"Text-Utilities-App",
         technology:"ReactJs , CSS , Routes",
-        deployement:"/projects",
+        deployement:'',
         github:"https://github.com/abhis12321/TextUtils---TicTacToe---Weather",
         image:"/img/projects/textUtils.png",
         description:"It&apos;s also a basic frontend web application designed for some basic text utilities with the help of eventlisteners and JavaScript functionalities. zit comes with a good looking and Interactive UI."
@@ -74,7 +74,7 @@ export const projects = [
     {
         title:"Tic-Tac-Toe",
         technology:"ReactJs , CSS , Routes",
-        deployement:"/projects",
+        deployement:'',
         github:"https://github.com/abhis12321/TextUtils---TicTacToe---Weather",
         image:"/img/projects/ticTacToe.png",
         description:"It&apos;s a basic game designed for checking your critical thinking and decision making capabilities and strength of making the best decision out of all the possible decisions. It is a frontend project built using some functionalities of JavaScript along with a good looking and interactive UI."
@@ -90,7 +90,7 @@ export const projects = [
     {
         title:"News-Hunt",
         technology:"ReactJs , CSS , Routes",
-        deployement:"/projects",
+        deployement:'',
         github:"https://github.com/abhis12321/News-Hunt",
         image:"/img/projects/pending.png",
         description:"A React based News Application for current/Daily news (data from news api)I created a news website for current(daily) news using the data of a NEWS API and I created some sections of interests"
