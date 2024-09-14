@@ -14,17 +14,17 @@ export default function CodingProfile() {
           </div>
 
           <div className="w-full flex flex-wrap gap-2 justify-between items-center">
-            <Link href={'https://www.geeksforgeeks.org/user/abhis12321/'} className="h-[160px] w-full xs:w-[48.5%] md:w-[32.5%] group flex flex-col justify-evenly bg-gray-600/15 hover:bg-blue-600/20 rounded-lg px-4 py-4 shadow-[2px_1px_1px_gray]">
+            <Link href={'https://www.geeksforgeeks.org/user/abhis12321/'} className="h-[160px] w-full xs:w-[48.5%] md:w-[32.5%] group flex flex-col justify-evenly bg-gray-600/10 hover:bg-blue-600/20 rounded-lg px-4 py-4 shadow-[2px_1px_1px_gray]">
               <Image src={'/img/svgs/gfg.svg'} alt='leetcode' height={50} width={50} className='rounded' />
               <div className="font-bold text-xl text-white drop-shadow-[0_0_2px_black]">GeeksForGeeks</div>
               <div className='text-blue-500 font-bold group-hover:underline w-fit flex items-center justify-center gap-1' target='_blank'>view profile <FontAwesomeIcon icon={faUpRightFromSquare} size='sm' className='max-h-3' /></div>
             </Link>
-            <Link href={'https://leetcode.com/u/abhis12321/'} className="h-[160px] w-full xs:w-[48.5%] md:w-[32.5%] group flex flex-col justify-evenly bg-gray-600/15 hover:bg-blue-600/20 rounded-lg px-4 py-4 shadow-[2px_1px_1px_gray]">
+            <Link href={'https://leetcode.com/u/abhis12321/'} className="h-[160px] w-full xs:w-[48.5%] md:w-[32.5%] group flex flex-col justify-evenly bg-gray-600/10 hover:bg-blue-600/20 rounded-lg px-4 py-4 shadow-[2px_1px_1px_gray]">
               <Image src={'/img/others/leetcode.png'} alt='leetcode' height={50} width={50} className='rounded' />
               <div className="font-bold text-xl text-white drop-shadow-[0_0_2px_black]">LeetCode</div>
               <div className='text-blue-500 font-bold group-hover:underline w-fit flex items-center justify-center gap-1' target='_blank'>view profile <FontAwesomeIcon icon={faUpRightFromSquare} size='sm' className='max-h-3' /></div>
             </Link>
-            <Link href={'https://www.codechef.com/users/abhis12321'} className="h-[160px] w-full xs:w-[48.5%] md:w-[32.5%] group flex flex-col justify-evenly bg-gray-600/15 hover:bg-blue-600/20 rounded-lg px-4 py-4 shadow-[2px_1px_1px_gray]">
+            <Link href={'https://www.codechef.com/users/abhis12321'} className="h-[160px] w-full xs:w-[48.5%] md:w-[32.5%] group flex flex-col justify-evenly bg-gray-600/10 hover:bg-blue-600/20 rounded-lg px-4 py-4 shadow-[2px_1px_1px_gray]">
               <Image src={'/img/svgs/codechef.svg'} alt='leetcode' height={55} width={55} className='rounded' />
               <div className="font-bold text-xl text-white drop-shadow-[0_0_2px_black]">CodeChef</div>
               <div className='text-blue-500 font-bold group-hover:underline w-fit flex items-center justify-center gap-1' target='_blank'>view profile <FontAwesomeIcon icon={faUpRightFromSquare} size='sm' className='max-h-3' /></div>

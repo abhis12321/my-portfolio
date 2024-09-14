@@ -15,7 +15,7 @@ export default function SocialMediaProfile() {
         <FontAwesomeIcon
           icon={faGithub}
           size="2x"
-          className="p-[4px] text-[1.8rem] rounded-md bg-slate-950 dark:bg-blue-950 text-white ring-[1px] ring-gray-500"
+          className="h-[1.8rem] p-[4px] text-[1.8rem] rounded-md bg-slate-950 dark:bg-blue-950 text-white ring-[1px] ring-gray-500"
         />
       </Link>
       <Link
@@ -26,7 +26,7 @@ export default function SocialMediaProfile() {
         <FontAwesomeIcon
           icon={faLinkedin}
           size="3x"
-          className="text-blue-700 hover:text-blue-600 text-[2.6rem]"
+          className="h-[2.6rem] text-blue-700 hover:text-blue-600 text-[2.6rem]"
         />
       </Link>
       <Link
@@ -37,7 +37,7 @@ export default function SocialMediaProfile() {
         <FontAwesomeIcon
           icon={faInstagram}
           size="3x"
-          className="text-rose-800/95 hover:text-rose-700 text-[2.76rem]"
+          className="h-[2.76rem] text-rose-800/95 hover:text-rose-700 text-[2.76rem]"
         />
       </Link>
       <Link
@@ -48,7 +48,7 @@ export default function SocialMediaProfile() {
       <FontAwesomeIcon
         icon={faSquareEnvelope}
         size="3x"
-        className="text-blue-800 text-[2.65rem]"
+        className="h-[2.65rem] text-blue-800 text-[2.65rem]"
       />
       </Link>      
     </div>
