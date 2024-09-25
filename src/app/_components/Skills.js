@@ -6,14 +6,14 @@ import { faLaptopCode } from '@fortawesome/free-solid-svg-icons'
 export default function Skills() {
   return (
     <div className="flex flex-col flex-wrap items-center justify-center bg-transparent py-6">
-      <div className="max-w-[1150px] w-[98%] mx-auto bg-white dark:bg-white/10 shadow-[0_0_5px_gray] mt-3 md:mt-4 rounded-xl text-gray-400 text-7xl xs:text-8xl sm:text-[9rem] relative px-3 py-4">
-        <div className="drop-shadow-[3px_4px_1px_black] dark:drop-shadow-[2px_1px_1px_white] w-full pb-5 pt-3">
+      <div className="max-w-[1150px] w-[98%] mx-auto bg-white dark:bg-white/10 shadow-[0_0_5px_gray] mt-3 md:mt-4 rounded-xl text-gray-400 text-7xl xs:text-8xl sm:text-[9rem] relative p-1 sm:px-3 py-6 flex flex-col items-center justify-center gap-6">
+        <div className="w-full pt-2 drop-shadow-[3px_4px_1px_black] dark:drop-shadow-[2px_1px_1px_white]">
           <div className="w-fit mx-auto drop-shadow-[1px_1px_1px_white] flex gap-3 items-center justify-center text-[2.8rem] font-extrabold max-h-16 overflow-hidden bg-gradient-to-r from-pink-600 via-pink-600 to-violet-600 bg-clip-text text-transparent">
             <FontAwesomeIcon size='xs' icon={faLaptopCode} className='text-[2.8rem] text-pink-600' /> Skills
           </div>
         </div>
 
-        <div className="flex flex-wrap items-center justify-evenly gap-2 md:gap-3 rounded-xl">
+        <div className="w-full flex flex-wrap items-center justify-evenly gap-2 md:gap-3 rounded-xl">
 
           <div className="w-[98%] md:w-[49%] px-2 sm:px-3 py-5 rounded-lg flex flex-col items-center justify-center bg-gray-600/10 dark:bg-white/5 shadow-[2px_1px_1px_gray]">
             <div className="drop-shadow-[3px_3px_1px_black] dark:drop-shadow-[1px_1px_1px_gray] pb-5 w-full font-extrabold">

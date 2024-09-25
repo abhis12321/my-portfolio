@@ -1,16 +1,32 @@
 export const projects = [
     {
         title:"Coder Channel",
-        technology:"ReactJs , Next.js , CSS , MongoDb , Socket.io , Nodemailer & Tailwind",
+        technology:"ReactJs , Next.js , CSS , Tailwind , MongoDB , Socket.io , Nodemailer & JsonWebTocken",
         deployement:"http://13.201.72.123/",
         github:"https://github.com/abhis12321/Coder-Channel",
         image:"/img/projects/coder-channel.png",
-        description:"It's a full stack next.js project built using React.js, Next.js, CSS, Tailwind, MongoDb, JavaScript and Nodemailer. It is a web app for students to login and connect with the other students and chat with them to ask any queries. This web app platform can be use for chatting purpose too, for any personal chat or group chat. It's a MERN Stack project."
+        description:"It's a full stack next.js project built using React.js, Next.js, CSS, Tailwind, MongoDB, JavaScript and Nodemailer. It is a web app for students to login and connect with the other students and chat with them to ask any queries. This web app platform can be use for chatting purpose too, for any personal chat or group chat. It's a MERN Stack project."
+    },
+    {
+        title:"E-BloodBank",
+        technology:"ReactJs , Next.js , CSS , Tailwind, MongoDB & nodemailer",
+        deployement:"https://e-blood-bank.vercel.app/",
+        github:"https://github.com/abhis12321/e-blood-bank",
+        image:"/img/projects/e-blood-bank.png",
+        description:"It's a full stack next.js web app for easing blood donations and receivings. This app enables user-to-user blood donation and blood receing as the donator and the receivers regiser there on the website and enters the some related data for verification. And once the data is verified some donators are assigned to the receiver and the receiver can receive the required amound of blood from the donors directly."
+    },
+    {
+        title:"2-Factor-Authentication App",
+        technology:"ReactJs , Next.js , CSS , Tailwind, MongoDB & otplib",
+        deployement:"https://2-factor-authentication-xi.vercel.app/",
+        github:"https://github.com/abhis12321/2-factor-authentication",
+        image:"/img/projects/two-factor-authentication.png",
+        description:"It's a full stack next.js project built using React.js, Next.js, CSS, Tailwind, MongoDB, JavaScript and otplib (microsoft authenticator). It is a simple web app that demonstraates the 2-Factor-Verification for the registered users."
     },
     {
         title:"E-commerce Web App",
         technology:"HTML , CSS , React.js , Next.js , MongoDB & Tailwind",
-        deployement:'',
+        deployement:'/error',
         github:"https://github.com/abhis12321/ecommerse-backend",
         image:"/img/projects/pending.png",
         description:"I'm working on a Full Stack Web Application for an Ecommerse platform. It is going to be a MERN Stack Project with all the functionalities for a Ecommerse website. It is currently in building process."
@@ -90,7 +106,7 @@ export const projects = [
     {
         title:"Text-Utilities-App",
         technology:"ReactJs , CSS , Routes",
-        deployement:'',
+        deployement:'/error',
         github:"https://github.com/abhis12321/TextUtils---TicTacToe---Weather",
         image:"/img/projects/textUtils.png",
         description:"It's also a basic frontend web application designed for some basic text utilities with the help of eventlisteners and JavaScript functionalities. zit comes with a good looking and Interactive UI."
@@ -98,7 +114,7 @@ export const projects = [
     {
         title:"Tic-Tac-Toe",
         technology:"ReactJs , CSS , Routes",
-        deployement:'',
+        deployement:'/error',
         github:"https://github.com/abhis12321/TextUtils---TicTacToe---Weather",
         image:"/img/projects/ticTacToe.png",
         description:"It's a basic game designed for checking your critical thinking and decision making capabilities and strength of making the best decision out of all the possible decisions. It is a frontend project built using some functionalities of JavaScript along with a good looking and interactive UI."

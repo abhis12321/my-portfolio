@@ -23,7 +23,7 @@ export default function NavBar({ bodyRef }) {
         <h2 className="font-extrabold text-3xl text-center rounded-md text-transparent bg-clip-text bg-gradient-to-l from-pink-500 to-orange-500 w-fit leading-[4rem] overflow-hidden drop-shadow-[1px_1px_1px_black]"><span className="font-extrabold">@</span>bhishek singh</h2>
       </div>
 
-      <div className="right-navbar z-50 fixed md:static top-0 right-0 hidden md:flex md:gap-[6px] lg:gap-2 bg-white dark:bg-[#21232E] dark:md:bg-transparent shadow-[0_0_1px_gray] md:shadow-none min-h-[100vh] md:min-h-fit items-center min-w-[170px] dark:font-normal font-medium overflow-hidden h-full md:px-1" ref={rightNav}>
+      <div className="right-navbar z-50 fixed md:static top-0 right-0 hidden md:flex md:gap-[6px] lg:gap-2 bg-white dark:bg-[#21232E] dark:md:bg-transparent shadow-[-.5px_0_1px_gray] md:shadow-none min-h-[100vh] md:min-h-fit items-center min-w-[170px] dark:font-normal font-medium overflow-hidden h-full md:px-1" ref={rightNav}>
         <div className="mx-auto w-fit text-4xl my-1 py-2 hover:text-red-800 text-center cursor-pointer" onClick={handleRight}>
           <FontAwesomeIcon icon={faXmark} size='sm' className="hidden cutX" ref={cutX}/>
         </div>
