@@ -45,7 +45,7 @@ export default function Contact() {
           </div>
           <div className="group w-full flex relative">
             <FontAwesomeIcon size='1x' className='h-5 absolute top-[16px] left-5 text-xl group-focus-within:text-violet-700 text-slate-950 dark:text-gray-100' icon={faCommentDots} />
-            <textarea value={message} onChange={e => setMessage(e.target.value)} placeholder='Enter your message' cols="25" rows="9" className='w-full bg-blue-600/15 dark:bg-blue-900/10 text-cyan-950 dark:text-gray-400 placeholder:text-gray-500 dark:placeholder:text-gray-600 font-medium focus:text-sky-700 focus:bg-blue-700/30 dark:focus:bg-slate-950/65 focus:border-violet-700 dark:focus:border-violet-900 border-2 border-gray-500 p-3 px-14 outline-none rounded-md' required></textarea></div>
+            <textarea value={message} onChange={e => setMessage(e.target.value)} placeholder='Enter your message' cols="25" rows="8" className='w-full bg-blue-600/15 dark:bg-blue-900/10 text-cyan-950 dark:text-gray-400 placeholder:text-gray-500 dark:placeholder:text-gray-600 font-medium focus:text-sky-700 focus:bg-blue-700/30 dark:focus:bg-slate-950/65 focus:border-violet-700 dark:focus:border-violet-900 border-2 border-gray-500 p-3 px-14 outline-none rounded-md' required></textarea></div>
           <input type="submit" value={'Send'} className='bg-red-900 hover:bg-red-700 active:bg-violet-900 border-2 border-gray-500 py-[10px] text-center outline-none rounded-md font-bold cursor-pointer' required />
 
         </div>      

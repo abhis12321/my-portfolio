@@ -22,7 +22,7 @@ export default function HomeView() {
         </h3>
         <Animated_typewritter />
 
-        <Link href={'#about'} className="w-fit px-5 py-3 my-2 rounded-3xl font-bold text-sm text-white bg-violet-950 hover:bg-violet-900 shadow-[3px_3px_1px_green] shadow-blue-500 hover:shadow-[3px_3px_1px_orange] dark:shadow-[2px_2px_2px_white] dark:hover:shadow-[2px_2px_1px_white] flex items-center justify-center gap-2">About me <FontAwesomeIcon icon={faCircleDown}  size="1x" className="max-h-[15px] relative top-[2px]"/></Link>
+        <Link href={'#about'} className="w-fit px-5 py-3 my-2 rounded-3xl font-bold text-sm text-white hover:text-sky-500 bg-violet-950 hover:bg-violet-900 shadow-[3px_3px_1px_green] shadow-blue-500 hover:shadow-sky-600 dark:shadow-[2px_2px_2px_white] dark:hover:shadow-[2px_2px_1px_white] flex items-center justify-center gap-2 duration-500">About me <FontAwesomeIcon icon={faCircleDown}  size="1x" className="max-h-[15px] relative top-[2px]"/></Link>
         
         <SocialMediaProfile />
       </div>

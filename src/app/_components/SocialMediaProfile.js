@@ -31,7 +31,7 @@ export default function SocialMediaProfile() {
       </Link>
       <Link
         target="_blank"
-        href={`https://www.instagram.com/____abhis____/`}
+        href={`https://www.instagram.com/_______abhishek_singh_______/`}
         className="hover:scale-110 duration-500"
       >
         <FontAwesomeIcon

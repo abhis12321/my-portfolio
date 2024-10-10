@@ -1,6 +1,7 @@
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
 
 export default function About() {
   return (
@@ -30,7 +31,10 @@ export default function About() {
               🚀I am a passionate web developer and currently pursuing my Bachelor&apos;s degree in Computer Science & Engineering from Dr. Ambedkar Institute of Technology for Divyanjan UP (India). I have a Deep Interest in Exploring the Fascinating World Of Technology and Its Applications.
               I am Constantly Driven to Enhance my Skills and Knowledge in Programming, Algorithms, and Software development.
             </div>
-            <Link href={'https://drive.google.com/file/d/1HgEPf2lxCZ72eoj28JHWysS3NaHHZ5Vl/view?usp=sharing'} target='_blank' className="bg-indigo-900/80 hover:bg-violet-200 font-semibold font-mono ring-1 ring-gray-200 hover:ring-violet-800 hover:text-violet-900 px-5 py-[7px] mt-1 sm:mt-4 rounded-lg w-fit text-white text-xs sm:text-sm"><span className="font-serif">Resume</span> &gt;</Link>
+            <Link href={'https://drive.google.com/file/d/1HgEPf2lxCZ72eoj28JHWysS3NaHHZ5Vl/view?usp=sharing'} target='_blank' className="bg-indigo-900/80 hover:bg-violet-200 dark:hover:bg-inherit font-semibold font-mono ring-[1.4px] ring-indigo-900/80 dark:ring-gray-200 hover:ring-violet-600 hover:text-violet-600 px-5 py-[7px] mt-1 sm:mt-4 rounded-lg w-fit text-white text-xs sm:text-sm flex items-center justify-center gap-[6px] duration-500">
+              <span className="font-serif tracking-wide">Resume</span>
+              <FontAwesomeIcon size='sm' icon={faArrowUpRightFromSquare} className='h-3' />
+            </Link>
           </div>
         </div>
       </div>
