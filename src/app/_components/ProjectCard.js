@@ -6,7 +6,7 @@ export default function ProjectCard({ project }) {
   const { title, technology, deployement, github, image, description } = project;    
     
   return (
-    <div className="bg-white hover:bg-blue-50 dark:bg-white/10 dark:hover:bg-gray-800/80 shadow-[0_0_2px_black_inset] dark:shadow-[0_0_2px_gray_inset] hover:shadow-[0_0_3px_black] dark:hover:shadow-[0_0_3px_white] text-white w-[97%] max-w-[900px] mx-auto p-[10px] sm:px-[20px] min-h-[180px] text-center rounded-lg">
+    <div className="w-[97%] max-w-[900px] mx-auto p-[10px] sm:px-[20px] min-h-[180px] bg-white hover:bg-blue-50 dark:bg-white/10 dark:hover:bg-gray-800/80 shadow-[0_0_2px_black_inset] dark:shadow-[0_0_2px_gray_inset] hover:shadow-[0_0_3px_black] dark:hover:shadow-[0_0_3px_white] text-white text-center rounded-lg">
       <h2 className="w-fit mx-auto sm:my-2 px-3 dark:px-0 py-2 bg-slate-950/10 dark:bg-transparent rounded-lg font-extrabold text-2xl drop-shadow-[3px_3px_1px_green] text-gray-50 dark:text-white">{ title }</h2>
       <p className='text-[10px] xs:text-[12px] italic text-yellow-600 dark:drop-shadow-[0_0_2px_black] font-bold' ><span className='font-semibold' >Tools & technologies used :</span> { technology }</p>
 

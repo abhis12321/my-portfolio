@@ -18,7 +18,7 @@ export default function NavBar({ bodyRef }) {
 
 
   return (
-    <div className="sticky top-0 left-0 z-50 w-full mx-auto bg-white dark:bg-white/10 dark:backdrop-blur-lg font-bold flex items-center justify-between h-[4rem] px-4 xs:px-6 md:pl-8 md:pr-[18px] lg:pl-10 lg:pr-[30px] italic shadow-[0px_0px_1px_gray] overflow-visible">
+    <div className="sticky top-0 left-0 z-50 w-full mx-auto bg-white dark:bg-white/10 dark:backdrop-blur-lg font-bold flex items-center justify-between h-[4rem] px-4 xs:px-6 md:pl-8 md:pr-[18px] lg:pl-10 lg:pr-[30px] italic shadow-[0px_0px_1px_gray] dark:shadow-none overflow-visible md:overflow-hidden">
       <div className="">
         <h2 className="font-extrabold text-3xl text-center rounded-md text-transparent bg-clip-text bg-gradient-to-l from-pink-500 to-orange-500 w-fit leading-[4rem] overflow-hidden drop-shadow-[1px_1px_1px_black]"><span className="font-extrabold">@</span>bhishek singh</h2>
       </div>

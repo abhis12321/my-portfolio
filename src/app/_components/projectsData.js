@@ -64,6 +64,14 @@ export const projects = [
         description:"It's a simple and basic Frontend Project mainly focused on JavaScript and Styling. It comes with a good looking User-Interface(UI). You can generate some random password from here for any purpose as also check it's strength that how safe it is."
     },
     {
+        title:"Analog Watch",
+        technology:"HTML , CSS , JavaScript",
+        deployement:"https://abhis12321.github.io/analog-clock/",
+        github:"https://github.com/abhis12321/analog-clock.git",
+        image:"/img/projects/analogWatch.png",
+        description:"It's a simple and basic Frontend Project mainly focused on JavaScript and Styling. It comes with a good looking User-Interface(UI). You can generate some random password from here for any purpose as also check it's strength that how safe it is."
+    },
+    {
         title:"Task Manager (ToDo-List)",
         technology:"ReactJs , CSS , JavaScript",
         deployement:"https://abhis12321.github.io/To-Do-List-or-Task-Manager/",

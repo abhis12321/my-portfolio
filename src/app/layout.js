@@ -1,5 +1,6 @@
 import './globals.css';
 import BodyContainer from './_components/BodyContainer';
+import { cookies } from 'next/headers';
 
 
 export const metadata = {
@@ -8,9 +9,11 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  const initialTheme = cookies().get("theme")?.value;
+
   return (
     <html lang="en" >
-      <BodyContainer>
+      <BodyContainer initialTheme={initialTheme}>
         { children }
       </BodyContainer>
     </html>
