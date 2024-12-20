@@ -1,9 +1,7 @@
 "use client"
-
-import React from 'react';
 import { projects } from '../_components/projectsData';
 import ProjectCard from '../_components/ProjectCard';
-import ProjectCardNew from '../_components/ProjectCardNew';
+// import ProjectCardNew from '../_components/ProjectCardNew';
 
 
 export default function page() {
@@ -16,9 +14,11 @@ export default function page() {
       </div>
       <div className="flex gap-6 flex-wrap items-center justify-center">
         {
-          projects.map((project, index) => <ProjectCardNew project={project} key={index} />)
-          // projects.map((project, index) => <ProjectCard project={project} key={index}/>)
+          projects.map((project, index) => <ProjectCard project={project} key={index} />)
         }
+        {/* {
+          projects.map((project, index) => <ProjectCardNew project={project} key={index} />)
+        } */}
 
       </div>
 
